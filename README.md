@@ -1,6 +1,6 @@
 <!-- 🎨 BANNIÈRE PERSONNALISÉE -->
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Matfen2/Matfen2/main/images/tronLegacy.png" alt="Bannière Tron Legacy - Mathieu FENOUIL" width="100%" />
+  <img src="https://raw.githubusercontent.com/Matfen2/Matfen2/main/tronLegacy.png" alt="Bannière Tron Legacy - Mathieu FENOUIL" width="100%" style="border-radius:12px;box-shadow:0 0 25px #00e5ff, 0 0 60px #00b3ff;animation:pulse 3s infinite alternate;" />
 </p>
 
 <h1 align="center">👋 Bonjour, je suis Mathieu FENOUIL</h1>
@@ -19,6 +19,7 @@
 ## 🧠 À propos de moi
 
 Développeur Web Front-End passionné, spécialisé en **JavaScript** et **React.js**, je conçois des interfaces **modernes**, **performantes** et **centrées sur l’expérience utilisateur**.  
+
 Diplômé d’une **Licence Bac +3 OpenClassrooms**, je travaille également en **freelance** et au sein d’une start-up (**DaftLink**) pour perfectionner mes compétences techniques et collaboratives.
 
 💡 Mon approche : design soigné, accessibilité, performances (Lighthouse, Wave) et UX intuitive.  
@@ -63,10 +64,10 @@ Diplômé d’une **Licence Bac +3 OpenClassrooms**, je travaille également en 
 
 ## 🎓 Formations
 
-🎓 **Développeur Web RNCP (Bac +3)** – *OpenClassrooms (2025)*  
+ **Développeur Web RNCP (Bac +3)** – *OpenClassrooms (2025)*  
 > Spécialisation : JavaScript & React.js  
 
-🎓 **Développeur Web RNCP (Bac +2)** – *OpenClassrooms (2024)*  
+**Développeur Web RNCP (Bac +2)** – *OpenClassrooms (2024)*  
 > HTML, CSS, JavaScript, Bootstrap, Tailwind CSS  
 
 ---
@@ -82,10 +83,4 @@ Rejoindre une **équipe innovante** où je pourrai créer des **interfaces immer
 <p align="center">
   <a href="mailto:matfen2.0@outlook.fr"><img src="https://img.shields.io/badge/Email-matfen2.0%40outlook.fr-blue?style=for-the-badge&logo=gmail" /></a>
   <a href="https://www.linkedin.com/in/mathieu-fenouil/"><img src="https://img.shields.io/badge/LinkedIn-Mathieu%20FENOUIL-0077B5?style=for-the-badge&logo=linkedin" /></a>
-</p>
-
----
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0077b6,100:00b4d8&height=120&section=footer" />
 </p>
