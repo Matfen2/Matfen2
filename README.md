@@ -1,12 +1,7 @@
 <!-- 🎨 BANNIÈRE PERSONNALISÉE -->
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Matfen2/Matfen2/main/tronLegacy.png" alt="Bannière Tron Legacy - Mathieu FENOUIL" width="100%" style="border-radius:12px;box-shadow:0 0 25px #00e5ff, 0 0 60px #00b3ff;animation:pulse 3s infinite alternate;" />
-</p>
-
-<h1 align="center">👋 Bonjour, je suis Mathieu FENOUIL</h1>
-
-<p align="center">
-  <b>Développeur Web Front-End</b> | JavaScript · React.js · Next.js  
+  <img src="https://raw.githubusercontent.com/Matfen2/Matfen2/main/tron-pulse.svg" 
+       alt="Bannière Tron Pulse - Mathieu FENOUIL" width="100%" />
 </p>
 
 <p align="center">
