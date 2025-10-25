@@ -13,11 +13,7 @@
 
 ## 🧠 À propos de moi
 
-Développeur Web Front-End passionné, spécialisé en **JavaScript** et **React.js**, je conçois des interfaces **modernes**, **performantes** et **centrées sur l’expérience utilisateur**.  
-
-Diplômé d’une **Licence Bac +3 OpenClassrooms**, je travaille également en **freelance** et au sein d’une start-up (**DaftLink**) pour perfectionner mes compétences techniques et collaboratives.
-
-💡 Mon approche : design soigné, accessibilité, performances (Lighthouse, Wave) et UX intuitive.  
+Inspiré par les univers immersifs du cinéma et du jeu vidéo, j’aime créer des expériences web futuristes où design, accessibilité et performance se rejoignent. Mon approche : un code clair, des interfaces dynamiques, et une expérience fluide sur tous les écrans.
 
 ---
 
@@ -35,8 +31,8 @@ Diplômé d’une **Licence Bac +3 OpenClassrooms**, je travaille également en 
 
 - **Langages :** JavaScript (ES6+)
 - **Frameworks :** React.js, Node.js, Express.js  
-- **UI / UX :** Tailwind CSS  
-- **Outils :** API REST, Chrome DevTools  
+- **UI / UX :** Tailwind CSS, Responsive  
+- **Outils :** API REST, Chrome DevTools, Vercel, Figma  
 - **Autres :** Debugging, optimisation des performances, accessibilité  
 
 ---
@@ -45,9 +41,7 @@ Diplômé d’une **Licence Bac +3 OpenClassrooms**, je travaille également en 
 
 ### 🎨 Développeur Front-End – Freelance (DaftLink)
 📍 *Déc. 2024 - Aujourd’hui | Istres, France*  
-- Conception d’interfaces web modernes et responsives  
-- Intégration de nouvelles fonctionnalités utilisateurs  
-- Collaboration avec l’équipe pour l’amélioration continue du produit  
+
 
 ### 🎬 Intermittent du spectacle – Waylife Productions
 📍 *2020 - Aujourd’hui | Istres, France*  
