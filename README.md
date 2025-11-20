@@ -95,7 +95,7 @@ Développeur Full-Stack Junior fraîchement diplômé (Bac+3), passionné par la
 ## 🎓 Parcours
 
 **Développeur Concepteur Logiciel** - Bac+3 (Niveau 6 RNCP)  
-📚 OpenClassrooms • 2023-2024
+📚 OpenClassrooms • 2024-2025
 
 **Reconversion professionnelle** depuis l'audiovisuel (3 ans d'expérience)
 - Rigueur acquise sur des projets avec deadlines serrées
