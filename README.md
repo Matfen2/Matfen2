@@ -109,7 +109,7 @@ Développeur Full-Stack Junior fraîchement diplômé (Bac+3), passionné par la
 
 📧 **Email :** matfen2.0@outlook.fr  
 💼 **LinkedIn :** [Mathieu FENOUIL](https://www.linkedin.com/in/mathieu-fenouil/)  
-🌐 **Portfolio :** [portfolio-mathieu-fenouil.netlify.app](https://portfolio-mathieu-fenouil.netlify.app)  
+🌐 **Portfolio :** [https://portfolio-mathieu-fenouil.vercel.app](https://portfolio-mathieu-fenouil.vercel.app)  
 📍 **Localisation :** Istres, France
 
 </div>
