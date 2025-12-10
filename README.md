@@ -2,7 +2,7 @@
   
 # 👋 Salut, je suis Mathieu FENOUIL
 
-### Développeur Full-Stack Junior | React • Node.js • MongoDB
+### Développeur Full-Stack MERN | En recherche Alternance Bac+5 DevOps
 
 <p>
   <a href="https://www.linkedin.com/in/mathieu-fenouil/"><img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
@@ -15,9 +15,9 @@
 
 ## 🚀 À propos
 
-Développeur Full-Stack Junior fraîchement diplômé (Bac+3), passionné par la création d'applications web modernes et performantes.
+**Double recherche :** Alternance Bac+5 Expert DevOps (priorité) ou CDI Développeur Full-Stack. 
 
-**Actuellement :** En recherche active d'un **CDI** en tant que **Développeur React Junior** dans une ESN ou une entreprise innovante.
+**Objectif :** maîtriser le cycle complet dev → déploiement → automatisation.
 
 **Disponibilité :** Immédiate
 
@@ -43,6 +43,7 @@ Développeur Full-Stack Junior fraîchement diplômé (Bac+3), passionné par la
 ![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github&logoColor=white)
 ![Vercel](https://img.shields.io/badge/-Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
 ![Render](https://img.shields.io/badge/-Render-46E3B7?style=flat-square&logo=render&logoColor=white)
+![Linux](https://img.shields.io/badge/-Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 
 ---
 
@@ -93,8 +94,13 @@ Développeur Full-Stack Junior fraîchement diplômé (Bac+3), passionné par la
 
 ## 🎓 Parcours
 
+**Expert DevOps** - Bac+5 (Niveau 7 RNCP)  
+📚 OpenClassrooms • 2025-2026 *(alternance recherchée)*
+
 **Développeur Concepteur Logiciel** - Bac+3 (Niveau 6 RNCP)  
 📚 OpenClassrooms • 2024-2025
+
+**ISTQB Foundation Level v4.0** *(en cours - Décembre 2025)*
 
 **Reconversion professionnelle** depuis l'audiovisuel (3 ans d'expérience)
 - Rigueur acquise sur des projets avec deadlines serrées
