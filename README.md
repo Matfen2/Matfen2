@@ -127,7 +127,7 @@ Autodidacte devenu développeur, j'ai découvert ma passion pour l'automatisatio
 | Formation | Établissement | Période | Statut |
 |-----------|---------------|---------|--------|
 | **Expert DevOps** (Bac+5 - Niveau 7 RNCP) | OpenClassrooms | À partir de janvier 2026 | 🔍 Alternance recherchée |
-| **Développeur Concepteur Logiciel** (Bac+3 - Niveau 6 RNCP) | OpenClassrooms | 2024-2025 | ✅ En validation |
+| **Développeur Concepteur Logiciel** (Bac+3 - Niveau 6 RNCP) | OpenClassrooms | 2024-2025 | ✅ Validé |
 | **Développeur Web** (Bac+2) | OpenClassrooms | 2024 | ✅ Validé |
 
 ### 🔄 Reconversion professionnelle
