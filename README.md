@@ -114,7 +114,7 @@ Autodidacte devenu développeur, je conçois des applications web robustes et sc
 
 ---
 
-### ⚙️ [Premier-Projet-DevOps](https://github.com/matfen2/Premier-Projet-DevOps) • ⭐ Featured
+### ⚙️ [Premier-Projet-DevOps](https://github.com/Matfen2/first-project-devops) • ⭐ Featured
 > Pipeline CI/CD complet avec GitHub Actions, Docker et déploiement cloud
 
 **Stack :** GitHub Actions • Docker • Node.js • ESLint • AWS • Vercel
@@ -126,7 +126,7 @@ Autodidacte devenu développeur, je conçois des applications web robustes et sc
 - ✅ Build et vérification d'image Docker
 - ✅ Déploiement automatisé sur AWS et Vercel
 
-**Repo :** [🔗 Voir le pipeline en action](https://github.com/matfen2/Premier-Projet-DevOps/actions)
+**Repo :** [🔗 Voir le pipeline en action](https://github.com/Matfen2/first-project-devops/actions)
 
 ---
 
