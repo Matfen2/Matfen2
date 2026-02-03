@@ -2,7 +2,7 @@
   
 # 👋 Salut, je suis Mathieu FENOUIL
 
-### Développeur Full-Stack | En recherche Alternance Bac+5 Expert DevOps
+### Développeur Full-Stack | En recherche Alternance Bac+5 Software Engineer
 
 <p>
   <a href="https://www.linkedin.com/in/mathieu-fenouil/"><img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
@@ -16,13 +16,13 @@
 
 ## 🚀 À propos
 
-Autodidacte devenu développeur, j'ai découvert ma passion pour l'automatisation en intégrant Docker et GitHub Actions dans mes workflows quotidiens. Cette appétence pour optimiser les processus m'oriente naturellement vers le **DevOps**.
+Autodidacte devenu développeur, je conçois des applications web robustes et scalables au quotidien. Mon appétence pour les bonnes pratiques de développement, les tests et le déploiement continu m'oriente naturellement vers le **Software Engineering**.
 
-🎯 **Objectif :** Maîtriser le cycle complet développement → déploiement → automatisation
+🎯 **Objectif :** Maîtriser le cycle complet de conception, développement et déploiement d'applications modernes
 
-📍 **Localisation :** Istres, France | Mobilité région PACA
+📍 **Localisation :** Istres, France | Mobilité France entière
 
-💼 **Statut :** Développeur Full-Stack chez DaftLink | Recherche alternance Bac+5 Expert DevOps (12 mois) à partir de janvier 2026
+💼 **Statut :** Développeur Full-Stack chez DaftLink | Recherche alternance Bac+5 Software Engineer (18 mois – 3 sem. entreprise / 1 sem. cours) via Liora (ex-DataScientest)
 
 ---
 
@@ -59,6 +59,12 @@ Autodidacte devenu développeur, j'ai découvert ma passion pour l'automatisatio
 ![Express](https://img.shields.io/badge/-Express-000000?style=flat-square&logo=express&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
 ![API REST](https://img.shields.io/badge/-API_REST-FF6C37?style=flat-square&logo=postman&logoColor=white)
+
+### En apprentissage
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Django](https://img.shields.io/badge/-Django-092E20?style=flat-square&logo=django&logoColor=white)
+![SQL](https://img.shields.io/badge/-SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
+![AWS](https://img.shields.io/badge/-AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white)
 
 ### DevOps & Outils
 ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
@@ -108,6 +114,22 @@ Autodidacte devenu développeur, j'ai découvert ma passion pour l'automatisatio
 
 ---
 
+### ⚙️ [Premier-Projet-DevOps](https://github.com/matfen2/Premier-Projet-DevOps) • ⭐ Featured
+> Pipeline CI/CD complet avec GitHub Actions, Docker et déploiement cloud
+
+**Stack :** GitHub Actions • Docker • Node.js • ESLint • AWS • Vercel
+
+**Fonctionnalités :**
+- ✅ Pipeline CI/CD multi-étapes (lint → sécurité → tests → build Docker)
+- ✅ Analyse de code automatisée avec ESLint
+- ✅ Audit de sécurité des dépendances (npm audit)
+- ✅ Build et vérification d'image Docker
+- ✅ Déploiement automatisé sur AWS et Vercel
+
+**Repo :** [🔗 Voir le pipeline en action](https://github.com/matfen2/Premier-Projet-DevOps/actions)
+
+---
+
 ## 📊 GitHub Stats
 
 <div align="center">
@@ -126,9 +148,9 @@ Autodidacte devenu développeur, j'ai découvert ma passion pour l'automatisatio
 
 | Formation | Établissement | Période | Statut |
 |-----------|---------------|---------|--------|
-| **Expert DevOps** (Bac+5 - Niveau 7 RNCP) | OpenClassrooms | À partir de janvier 2026 | 🔍 Alternance recherchée |
-| **Développeur Concepteur Logiciel** (Bac+3 - Niveau 6 RNCP) | OpenClassrooms | 2025 | ✅ Validé |
-| **Développeur Web** (Bac+2) | OpenClassrooms | 2024 | ✅ Validé |
+| **Software Engineer** (Bac+5 - Niveau 7 RNCP) | Liora (ex-DataScientest) | À partir de 2026 | 🔍 Alternance recherchée |
+| **Concepteur Développeur Logiciel** (Bac+3 - Niveau 6 RNCP) | OpenClassrooms | 2025 | ✅ Validé |
+| **Développeur Informatique** (Bac+2) | OpenClassrooms | 2024 | ✅ Validé |
 
 ### 🔄 Reconversion professionnelle
 Ancien professionnel de l'audiovisuel (3 ans d'expérience) :
@@ -138,20 +160,21 @@ Ancien professionnel de l'audiovisuel (3 ans d'expérience) :
 
 ---
 
-## 🚀 Objectifs DevOps 2026
+## 🚀 Objectifs Software Engineer 2026
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│  CI/CD          │  Infrastructure as Code  │  Orchestration │
-│  ────────────── │  ────────────────────── │  ───────────── │
-│  GitLab CI      │  Terraform               │  Kubernetes    │
-│  Jenkins        │  Ansible                 │  Docker Swarm  │
-│  GitHub Actions │  CloudFormation          │  Helm          │
+│  Backend & API    │  Frontend avancé     │  Cloud & Deploy  │
+│  ──────────────── │  ─────────────────── │  ────────────── │
+│  Python / Django  │  React.js            │  AWS             │
+│  SQL / NoSQL      │  TypeScript          │  Docker          │
+│  API REST         │  Tests unitaires     │  CI/CD           │
 ├─────────────────────────────────────────────────────────────┤
-│  Cloud                    │  Monitoring & Security          │
-│  ──────────────────────── │  ───────────────────────────── │
-│  AWS / Azure              │  SonarQube                      │
-│  GCP                      │  Prometheus / Grafana           │
+│  Sécurité & Qualité         │  Gestion de projet            │
+│  ────────────────────────── │  ───────────────────────────  │
+│  Auth / JWT / Cryptage      │  Méthodologies Agiles          │
+│  Tests automatisés          │  Certif. AWS Developer          │
+│  OWASP / Bonnes pratiques   │  Architecture logicielle        │
 └─────────────────────────────────────────────────────────────┘
 ```
 
@@ -171,9 +194,9 @@ Ancien professionnel de l'audiovisuel (3 ans d'expérience) :
 
 <div align="center">
 
-### 💡 "Autodidacte devenu développeur, futur Expert DevOps"
+### 💡 "Autodidacte devenu développeur, futur Software Engineer"
 
-**🟢 Ouvert aux opportunités** • **📍 Région PACA** • **🚀 Disponible janvier 2026**
+**🟢 Ouvert aux opportunités** • **📍 France entière** • **🚀 Disponible 2026**
 
 ![Profile Views](https://komarev.com/ghpvc/?username=matfen2&color=blueviolet&style=flat-square)
 
