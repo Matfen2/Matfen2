@@ -186,7 +186,7 @@ Ancien professionnel de l'audiovisuel (3 ans d'expérience) :
 
 | 📧 Email | 💼 LinkedIn | 🌐 Portfolio | 📱 Téléphone |
 |----------|-------------|--------------|--------------|
-| [matfen3.05@gmail.com](mailto:matfen3.05@gmail.com) | [Mathieu FENOUIL](https://www.linkedin.com/in/mathieu-fenouil/) | [Portfolio](https://portfolio-mathieu-fenouil.vercel.app) | 06 05 15 24 23 |
+| [matfen3.05@gmail.com](mailto:matfen3.05@gmail.com) | [Mathieu FENOUIL](https://www.linkedin.com/in/mathieu-fenouil/) | [Portfolio](https://portfolio-lilac-five-11.vercel.app) | 06 05 15 24 23 |
 
 </div>
 
