@@ -130,20 +130,6 @@ Autodidacte devenu développeur, je conçois des applications web robustes et sc
 
 ---
 
-## 📊 GitHub Stats
-
-<div align="center">
-  
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=matfen2&show_icons=true&theme=tokyonight&hide_border=true)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=matfen2&layout=compact&theme=tokyonight&hide_border=true)
-
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=matfen2&theme=tokyonight&hide_border=true)](https://git.io/streak-stats)
-
-</div>
-
----
-
 ## 🎓 Parcours
 
 | Formation | Établissement | Période | Statut |
