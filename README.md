@@ -2,7 +2,7 @@
   
 # 👋 Salut, je suis Mathieu FENOUIL
 
-### Développeur Full-Stack | En recherche Alternance Bac+5 Software Engineer
+### Développeur Full-Stack | Vue.js · Node.js · Docker · AWS | Alternance Bac+5 Software Engineer
 
 <p>
   <a href="https://www.linkedin.com/in/mathieu-fenouil/"><img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
