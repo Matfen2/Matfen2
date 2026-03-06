@@ -167,7 +167,7 @@ Ancien professionnel de l'audiovisuel et du cinéma (2018-2024) — régisseur, 
 
 | 📧 Email | 💼 LinkedIn | 🔶 TechPulse | 🌐 Portfolio |
 |----------|-------------|-------------|--------------|
-| [matfen3.05@gmail.com](mailto:matfen3.05@gmail.com) | [Mathieu FENOUIL](https://www.linkedin.com/in/mathieu-fenouil/) | [techpulse-portfolio.com](http://techpulse-portfolio.com) | [Portfolio](https://portfolio-lilac-five-11.vercel.app) |
+| [matfen3.05@gmail.com](mailto:matfen3.05@gmail.com) | [Mathieu FENOUIL](https://www.linkedin.com/in/mathieu-fenouil/) | [techpulse-portfolio.com](http://techpulse-portfolio.com) | [Portfolio](https://portfolio-mathieu-fenouil.vercel.app) |
 
 </div>
 
