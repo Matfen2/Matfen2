@@ -72,13 +72,13 @@ Ancien professionnel de l'audiovisuel reconverti en développeur, je conçois de
 </table>
 
 **🎯 Fonctionnalités clés :**
-- 🟣 **Kanban drag & drop** — déplacement inter-colonnes avec @dnd-kit et optimistic update
-- 📋 **Vue liste & Kanban** — toggle animé, filtres par statut, pagination, changement de statut inline
-- ⚡ **Event-driven** — chaque mutation tâche publie un événement Kafka via l'Outbox Pattern (atomique)
-- 🔐 **Auth JWT** — HttpOnly cookies, Guards (JWT / Roles / SelfOrAdmin), rate limiting
-- 🏗️ **Nx monorepo** — backend, frontend et libs partagées (`@freello/api-types`) dans un seul repo
-- 📖 **Swagger UI** — documentation API auto-générée et interactive sur `/api`
-- 🚀 **CI/CD complet** — lint + tests + Docker build + push GHCR + deploy SSH à chaque push main
+- 🟣 **Kanban drag & drop** - déplacement inter-colonnes avec @dnd-kit et optimistic update
+- 📋 **Vue liste & Kanban** - toggle animé, filtres par statut, pagination, changement de statut inline
+- ⚡ **Event-driven** - chaque mutation tâche publie un événement Kafka via l'Outbox Pattern (atomique)
+- 🔐 **Auth JWT** - HttpOnly cookies, Guards (JWT / Roles / SelfOrAdmin), rate limiting
+- 🏗️ **Nx monorepo** - backend, frontend et libs partagées (`@freello/api-types`) dans un seul repo
+- 📖 **Swagger UI** - documentation API auto-générée et interactive sur `/api`
+- 🚀 **CI/CD complet** - lint + tests + Docker build + push GHCR + deploy SSH à chaque push main
 
 ---
 
