@@ -30,9 +30,9 @@ Ancien professionnel de l'audiovisuel reconverti en développeur, je conçois de
 
 ### [🔗 freello.site](https://freello.site) &nbsp;•&nbsp; [📋 Swagger](https://freello.site/api) &nbsp;•&nbsp; [💻 Code Source](https://github.com/Matfen2/freello)
 
-**Application de gestion de projets et tâches inspirée de Trello — architecture event-driven avec Apache Kafka**
+**Application de gestion de projets et tâches inspirée de Trello - architecture event-driven avec Apache Kafka**
 
-*Conçu et déployé en 13 jours — du monorepo Nx au déploiement VPS avec CI/CD automatisé*
+*Conçu et déployé en 8 jours — du monorepo Nx au déploiement VPS avec CI/CD automatisé*
 
 </div>
 
@@ -90,7 +90,7 @@ Ancien professionnel de l'audiovisuel reconverti en développeur, je conçois de
 
 **Catalogue high-tech B2C + Marketplace C2C avec vérification vidéo obligatoire**
 
-*Conçu et déployé en 14 jours — de l'architecture au déploiement AWS*
+*Conçu et déployé en 14 jours - de l'architecture au déploiement AWS*
 
 </div>
 
@@ -129,14 +129,14 @@ Ancien professionnel de l'audiovisuel reconverti en développeur, je conçois de
 </table>
 
 **🎯 Fonctionnalités clés :**
-- 🔶 **Catalogue B2C** — 24 produits high-tech avec filtres, tri, recherche, pagination et fiches détaillées
-- 🏪 **Marketplace C2C** — Vente d'occasion entre particuliers avec upload vidéo Cloudinary obligatoire
-- 📹 **Vérification vidéo** — Chaque vendeur filme son produit, un admin vérifie avant publication
-- 🛒 **Panier & Checkout** — Ajout au panier, résumé, protection acheteur, paiement simulé
-- 👤 **Dashboard utilisateur** — Favoris, avis, annonces, paramètres
-- 🔧 **Panel Admin** — Dashboard Recharts, gestion produits CRUD, modération annonces, gestion utilisateurs
-- 🐳 **Docker prod** — Multi-stage builds (Nginx + Node.js), docker-compose.prod.yml
-- 🚀 **Déployé sur AWS EC2** — Instance Paris, Elastic IP, domaine custom
+- 🔶 **Catalogue B2C** - 24 produits high-tech avec filtres, tri, recherche, pagination et fiches détaillées
+- 🏪 **Marketplace C2C** - Vente d'occasion entre particuliers avec upload vidéo Cloudinary obligatoire
+- 📹 **Vérification vidéo** - Chaque vendeur filme son produit, un admin vérifie avant publication
+- 🛒 **Panier & Checkout** - Ajout au panier, résumé, protection acheteur, paiement simulé
+- 👤 **Dashboard utilisateur** - Favoris, avis, annonces, paramètres
+- 🔧 **Panel Admin** - Dashboard Recharts, gestion produits CRUD, modération annonces, gestion utilisateurs
+- 🐳 **Docker prod** - Multi-stage builds (Nginx + Node.js), docker-compose.prod.yml
+- 🚀 **Déployé sur AWS EC2** - Instance Paris, Elastic IP, domaine custom
 
 ---
 
@@ -206,7 +206,7 @@ Ancien professionnel de l'audiovisuel reconverti en développeur, je conçois de
 | **Développeur Informatique** (Bac+2) | OpenClassrooms | 2024 | ✅ Validé |
 
 ### 🔄 Reconversion professionnelle
-Ancien professionnel de l'audiovisuel et du cinéma (2018-2024) — régisseur, machino, ingénieur son :
+Ancien professionnel de l'audiovisuel et du cinéma (2018-2024) - régisseur, machino, ingénieur son :
 - 🎯 Rigueur acquise sur des productions avec deadlines serrées
 - 👥 Travail d'équipe sur des projets techniques complexes
 - 🔧 Autonomie, adaptabilité et résolution de problèmes
