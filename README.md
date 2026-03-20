@@ -65,7 +65,7 @@ Ancien professionnel de l'audiovisuel reconverti en développeur, je conçois de
 | Endpoints REST | 20+ documentés Swagger |
 | Pattern | Outbox Pattern + Kafka |
 | CI/CD | GitHub Actions → GHCR → VPS auto-deploy |
-| Temps de réalisation | 13 jours |
+| Temps de réalisation | 8 jours |
 
 </td>
 </tr>
