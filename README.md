@@ -1,7 +1,7 @@
 <div align="center">
   
 # 👋 Salut, je suis Mathieu FENOUIL
-### Software Engineer (Full-Stack & DevOps) | React · Node.js · NestJS · Kafka · AWS | Alternance 2026
+### Software Engineer (Full-Stack & DevOps) | React · Node.js · NestJS · Kafka · Spring Boot · AWS | Alternance 2026
 
 <p>
   <a href="https://www.linkedin.com/in/mathieu-fenouil/"><img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
@@ -16,8 +16,8 @@
 
 ## 🧠 Core Skills
 
-- Backend : Node.js, NestJS, API REST, architectures distribuées  
-- Frontend : React, Vue.js, interfaces modernes  
+- Backend : Node.js, NestJS, Spring Boot, API REST  
+- Frontend : React, Vue.js  
 - DevOps : Docker, CI/CD, AWS, déploiement  
 - Data : PostgreSQL, MongoDB  
 
@@ -25,50 +25,62 @@
 
 ## 🚀 À propos
 
-Développeur Full-Stack orienté Software Engineering & DevOps, je conçois des applications web modernes, performantes et scalables.
+Développeur Full-Stack orienté Software Engineering & DevOps, je conçois des applications modernes, performantes et scalables.
 
-Issu d’une reconversion depuis l’audiovisuel, j’apporte rigueur, autonomie et culture du travail en équipe sur des projets techniques exigeants.
+Je maîtrise le cycle complet : conception, développement, tests, conteneurisation et déploiement.
 
-Je maîtrise le cycle complet : conception, développement, tests, conteneurisation et déploiement (CI/CD, Docker, Cloud).
-
-🎯 **Objectif :** Intégrer une équipe en tant que Software Engineer en alternance pour concevoir et déployer des applications robustes et distribuées  
-📍 **Localisation :** Istres, France | Mobilité France entière  
-💼 **Statut :** Développeur Full-Stack chez DaftLink  
-📅 **Disponibilité :** Septembre 2026  
+🎯 **Objectif :** Alternance Software Engineer (Bac+5) – Septembre 2026  
+📍 **Mobilité :** France entière  
 
 ---
 
 ## ⚡ Highlights
 
-- 🟣 Architecture event-driven avec Kafka (Outbox Pattern)  
-- 🐳 Déploiement full Docker + CI/CD automatisé  
-- ☁️ Applications déployées (VPS, AWS EC2)  
-- 📊 +70 endpoints API sécurisés  
-- 🚀 Projets conçus de A à Z en conditions réelles  
+- 🟣 Architecture event-driven avec Kafka  
+- 🐳 Déploiement Docker + CI/CD automatisé  
+- ☁️ Applications déployées (VPS, AWS, Render)  
+- ☕ Développement backend avec Spring Boot  
+- 🚀 Projets complets de A à Z  
 
 ---
 
-## 🟣 Projet Phare — Freello
+## ☕ Projet — FoodExpress
 
 <div align="center">
 
-### [🔗 freello.site](https://freello.site) • [📋 Swagger](https://freello.site/api) • [💻 Code](https://github.com/Matfen2/freello)
+### 💻 https://github.com/Matfen2/foodexpress
 
-**Application de gestion de projets inspirée de Trello avec architecture event-driven**
+**API REST de gestion de livraisons développée avec Spring Boot**
 
 </div>
 
-Projet démontrant la mise en œuvre d’une architecture distribuée en conditions réelles.
+Projet démontrant la conception d’une API robuste en Java avec bonnes pratiques backend et déploiement cloud.
 
 ### 🛠️ Stack
-React · TypeScript · NestJS · PostgreSQL · Kafka · Docker · GitHub Actions · nginx  
+Java · Spring Boot 4 · PostgreSQL · Flyway · JUnit · Docker · GitHub Actions · Render  
 
 ### 🎯 Fonctionnalités
-- Kanban drag & drop (dnd-kit)  
-- Auth JWT sécurisée (HttpOnly cookies)  
-- Event-driven avec Kafka + Outbox Pattern  
-- API documentée avec Swagger  
-- CI/CD complet (build, test, deploy automatique)  
+- API REST complète (CRUD + pagination + validation)  
+- Gestion des erreurs centralisée  
+- Documentation Swagger auto-générée  
+- Tests unitaires (JUnit)  
+- Migration base de données (Flyway)  
+- CI/CD + déploiement automatisé  
+
+---
+
+## 🟣 Projet — Freello
+
+<div align="center">
+
+### 🔗 https://freello.site
+
+</div>
+
+Application de gestion de projets en architecture event-driven (Kafka).
+
+### Stack
+React · NestJS · PostgreSQL · Kafka · Docker  
 
 ---
 
@@ -76,72 +88,38 @@ React · TypeScript · NestJS · PostgreSQL · Kafka · Docker · GitHub Actions
 
 <div align="center">
 
-### [🔗 techpulse-portfolio.com](http://techpulse-portfolio.com) • [💻 Code](https://github.com/Matfen2/techpulse)
-
-**Marketplace & catalogue high-tech fullstack**
+### 🔗 http://techpulse-portfolio.com
 
 </div>
 
-Projet démontrant la conception d’une plateforme e-commerce complète avec logique métier et déploiement cloud.
-
-### 🛠️ Stack
-React · Node.js · Express · MongoDB · Docker · AWS EC2 · Nginx  
-
-### 🎯 Fonctionnalités
-- Catalogue produits + marketplace C2C  
-- Auth JWT + gestion utilisateurs  
-- Dashboard admin + modération  
-- Upload vidéo (Cloudinary)  
-- Déploiement AWS avec Docker  
+Marketplace fullstack avec authentification, dashboard et déploiement AWS.
 
 ---
 
 ## 💼 Expérience
 
-### 🔗 DaftLink — Développeur Full-Stack  
-*Décembre 2024 – Présent*
+### DaftLink — Développeur Full-Stack  
+*2024 – Présent*
 
-- 🚀 Développement de 15+ composants Vue.js modulaires  
-- 💳 Intégration Stripe pour paiement B2B  
-- 📱 Amélioration UX responsive  
-- ⚙️ Mise en place CI/CD (tests, lint, déploiement)  
-- 🐳 Containerisation Docker  
-
----
-
-## 💻 Stack Technique
-
-### Frontend
-React · Vue.js · TypeScript · JavaScript · Tailwind CSS  
-
-### Backend
-Node.js · NestJS · Express · PostgreSQL · MongoDB · Kafka  
-
-### DevOps & Cloud
-Docker · AWS · Nginx · GitHub Actions · Linux  
+- Développement frontend Vue.js  
+- API Node.js  
+- CI/CD + Docker  
 
 ---
 
 ## 🎓 Parcours
 
-- 🎓 Software Engineer (Bac+5) — Liora (2026)  
-- 🎓 Concepteur Développeur Logiciel (Bac+3) — OpenClassrooms  
-- 🎓 Développeur Web (Bac+2) — OpenClassrooms  
+- Software Engineer (Bac+5) — 2026  
+- Concepteur Développeur Logiciel (Bac+3)  
+- Développeur Web (Bac+2)  
 
 ---
 
 ## 📫 Contact
 
 - 📧 mathieu.fenouil.pro@gmail.com  
-- 💼 https://www.linkedin.com/in/mathieu-fenouil/  
-- 🌐 https://portfolio-mathieu-fenouil.vercel.app  
+- 💼 LinkedIn : https://www.linkedin.com/in/mathieu-fenouil/  
 
 ---
 
-<div align="center">
-
-💡 *Autodidacte devenu développeur, en route vers le Software Engineering & les systèmes distribués*
-
-🟢 Ouvert aux opportunités • 🚀 Alternance 2026
-
-</div>
+💡 *Objectif : devenir Software Engineer spécialisé backend & systèmes distribués*
