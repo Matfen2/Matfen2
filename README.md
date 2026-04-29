@@ -1,128 +1,134 @@
 <div align="center">
-  
-# 👋 Salut, je suis Mathieu FENOUIL
-### Software Engineer (Backend & DevOps) | Java · Spring Boot · Node.js · Kafka · React · AWS | Alternance 2026
+
+# 👋 Mathieu FENOUIL
+### Software Engineer (Full-Stack & DevOps)
+
+🚀 React · Node.js · NestJS · Kafka · Spring Boot · Docker · AWS
+
+🎯 Alternance Bac+5 Software Engineer (disponible Juin / Septembre 2026)
 
 <p>
-  <a href="https://www.linkedin.com/in/mathieu-fenouil/"><img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-  <a href="https://freello.site"><img src="https://img.shields.io/badge/-Freello_Live-6366F1?style=for-the-badge&logo=trello&logoColor=white"/></a>
-  <a href="http://techpulse-portfolio.com"><img src="https://img.shields.io/badge/-TechPulse_Live-F97316?style=for-the-badge&logo=react&logoColor=white"/></a>
-  <a href="https://portfolio-mathieu-fenouil.vercel.app"><img src="https://img.shields.io/badge/-Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white"/></a>
-  <a href="mailto:mathieu.fenouil.pro@gmail.com"><img src="https://img.shields.io/badge/-Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+  <a href="https://www.linkedin.com/in/mathieu-fenouil/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+  <a href="https://github.com/Matfen2"><img src="https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=github"/></a>
+  <a href="mailto:mathieu.fenouil.pro@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>
 </p>
-</div>
-
----
-
-## 🚀 À propos
-
-Software Engineer orienté **backend & systèmes distribués**, je conçois des applications **scalables, robustes et prêtes pour la production**.
-
-Je travaille aussi bien en **Java (Spring Boot)** qu’en **Node.js**, avec une approche orientée **architecture, performance et DevOps**.
-
-Je maîtrise le cycle complet : **conception → développement → tests → conteneurisation → déploiement**.
-
-🎯 **Objectif :** Alternance Software Engineer (Bac+5) – **Juin ou Septembre 2026**  
-📍 **Mobilité :** France entière  
-
----
-
-## 🧠 Core Skills
-
-- **Backend :** Java, Spring Boot, Node.js, NestJS, API REST  
-- **Frontend :** React, Vue.js  
-- **DevOps :** Docker, CI/CD, AWS, déploiement cloud  
-- **Data :** PostgreSQL, MongoDB  
-- **Architecture :** Event-driven, microservices  
-
----
-
-## ⚡ Highlights
-
-- 🟣 Architecture **event-driven avec Kafka**  
-- ☕ Développement backend robuste avec **Spring Boot**  
-- 🐳 Déploiement avec **Docker + CI/CD automatisé**  
-- ☁️ Applications déployées (**AWS, VPS, Render**)  
-- 🚀 Projets conçus de **A à Z (code → prod)**  
-
----
-
-## ☕ Projet — FoodExpress
-
-<div align="center">
-
-### 💻 https://github.com/Matfen2/foodexpress
-
-**API REST de gestion de livraisons développée avec Spring Boot**
 
 </div>
 
-Projet backend démontrant la conception d’une API **robuste, testée et déployée** en Java.
+---
 
-### 🛠️ Stack
-Java · Spring Boot · PostgreSQL · Flyway · JUnit · Docker · GitHub Actions · Render  
+## 🚀 Profil
 
-### 🎯 Fonctionnalités
-- API REST complète (CRUD + pagination + validation)  
-- Gestion des erreurs centralisée  
-- Documentation Swagger auto-générée  
-- Tests unitaires (JUnit)  
-- Migration base de données (Flyway)  
-- CI/CD + déploiement automatisé  
+Développeur orienté **Software Engineering & systèmes distribués**, je conçois des applications **scalables, testées et déployées en production**.
+
+💡 Approche :
+- Architecture propre (modulaire, maintenable)
+- Event-driven (Kafka, Outbox Pattern)
+- CI/CD & automatisation
+- Déploiement réel (AWS, VPS, Render)
+
+👉 **Pas seulement du code : des applications complètes en production.**
 
 ---
 
-## 🟣 Projet — Freello
+## 🔥 Projets clés
 
-<div align="center">
+### ☕ FoodExpress — API Spring Boot (Backend robuste)
+🔗 https://github.com/Matfen2/foodexpress
 
-### 🔗 https://freello.site
+API de gestion de livraisons conçue avec une approche **production-ready**.
 
-</div>
+**Stack :** Java · Spring Boot · PostgreSQL · Flyway · Docker · CI/CD  
 
-Application de gestion de projets en **architecture event-driven (Kafka)**.
+✔️ API REST complète (CRUD + pagination)  
+✔️ Gestion des erreurs centralisée  
+✔️ Migrations versionnées (Flyway)  
+✔️ Tests unitaires (JUnit)  
+✔️ Swagger auto-documenté  
+✔️ Déployé sur Render avec pipeline CI/CD  
 
-### Stack
-React · NestJS · PostgreSQL · Kafka · Docker  
+👉 **Focus recruteur : maîtrise backend Java + bonnes pratiques industrielles**
 
 ---
 
-## 🔶 Projet — TechPulse
+### 🟣 Freello — Event-Driven App (Kafka + Microservices mindset)
+🔗 https://freello.site  
+🔗 https://github.com/Matfen2/freello  
 
-<div align="center">
+App type Trello avec architecture **event-driven distribuée**.
 
-### 🔗 http://techpulse-portfolio.com
+**Stack :** React · NestJS · PostgreSQL · Kafka · Docker  
 
-</div>
+✔️ Outbox Pattern (consistance des événements)  
+✔️ Kafka (event streaming)  
+✔️ Auth sécurisée (JWT HttpOnly)  
+✔️ CI/CD + déploiement VPS  
 
-Marketplace fullstack avec authentification, dashboard et déploiement AWS.
+👉 **Focus recruteur : compréhension des systèmes distribués (rare junior)**
+
+---
+
+### 🔶 TechPulse — Marketplace Fullstack
+🔗 http://techpulse-portfolio.com  
+
+Marketplace e-commerce + C2C avec déploiement cloud.
+
+**Stack :** React · Node.js · MongoDB · AWS EC2 · Docker  
+
+✔️ Authentification JWT  
+✔️ Dashboard admin + analytics  
+✔️ Upload vidéo (Cloudinary)  
+✔️ Déploiement AWS  
+
+👉 **Focus recruteur : produit complet + logique métier**
 
 ---
 
 ## 💼 Expérience
 
-### DaftLink — Développeur Full-Stack  
-*2024 – Présent*
+### Développeur Full-Stack — DaftLink *(2024 – aujourd’hui)*
 
-- Développement frontend **Vue.js**  
-- API backend **Node.js**  
-- Mise en place **CI/CD & Docker**  
+- Développement frontend (Vue.js)
+- API backend Node.js
+- CI/CD & Docker
+- Travail en environnement startup (features rapides, production)
 
 ---
 
-## 🎓 Parcours
+## 🧠 Compétences clés
 
-- 🎯 Software Engineer (Bac+5) — 2026 (alternance)  
-- ✅ Concepteur Développeur Logiciel (Bac+3)  
-- ✅ Développeur Web (Bac+2)  
+**Backend :**  
+Java (Spring Boot) · Node.js · NestJS · API REST  
+
+**Frontend :**  
+React · Vue.js  
+
+**Data :**  
+PostgreSQL · MongoDB  
+
+**DevOps :**  
+Docker · CI/CD · AWS · Linux  
+
+---
+
+## 🎯 Objectif
+
+🎓 Alternance Software Engineer (Bac+5)  
+📅 Disponibilité : **Juin ou Septembre 2026**  
+📍 Mobilité : France entière  
+
+👉 Recherche environnement avec :
+- enjeux techniques
+- architecture scalable
+- bonnes pratiques engineering
 
 ---
 
 ## 📫 Contact
 
-- 📧 mathieu.fenouil.pro@gmail.com  
-- 💼 LinkedIn : https://www.linkedin.com/in/mathieu-fenouil/  
+📧 mathieu.fenouil.pro@gmail.com  
+💼 https://www.linkedin.com/in/mathieu-fenouil  
 
 ---
 
-💡 *Objectif : devenir Software Engineer spécialisé backend & systèmes distribués*
+💡 *Reconversion audiovisuel → développement : rigueur terrain + passion tech*
