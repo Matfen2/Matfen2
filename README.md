@@ -1,7 +1,7 @@
 <div align="center">
   
 # 👋 Salut, je suis Mathieu FENOUIL
-### Software Engineer (Full-Stack & DevOps) | React · Node.js · NestJS · Kafka · Spring Boot · AWS | Alternance 2026
+### Software Engineer (Backend & DevOps) | Java · Spring Boot · Node.js · Kafka · React · AWS | Alternance 2026
 
 <p>
   <a href="https://www.linkedin.com/in/mathieu-fenouil/"><img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
@@ -14,33 +14,36 @@
 
 ---
 
-## 🧠 Core Skills
+## 🚀 À propos
 
-- Backend : Node.js, NestJS, Spring Boot, API REST  
-- Frontend : React, Vue.js  
-- DevOps : Docker, CI/CD, AWS, déploiement  
-- Data : PostgreSQL, MongoDB  
+Software Engineer orienté **backend & systèmes distribués**, je conçois des applications **scalables, robustes et prêtes pour la production**.
+
+Je travaille aussi bien en **Java (Spring Boot)** qu’en **Node.js**, avec une approche orientée **architecture, performance et DevOps**.
+
+Je maîtrise le cycle complet : **conception → développement → tests → conteneurisation → déploiement**.
+
+🎯 **Objectif :** Alternance Software Engineer (Bac+5) – **Juin ou Septembre 2026**  
+📍 **Mobilité :** France entière  
 
 ---
 
-## 🚀 À propos
+## 🧠 Core Skills
 
-Développeur Full-Stack orienté Software Engineering & DevOps, je conçois des applications modernes, performantes et scalables.
-
-Je maîtrise le cycle complet : conception, développement, tests, conteneurisation et déploiement.
-
-🎯 **Objectif :** Alternance Software Engineer (Bac+5) – Septembre 2026  
-📍 **Mobilité :** France entière  
+- **Backend :** Java, Spring Boot, Node.js, NestJS, API REST  
+- **Frontend :** React, Vue.js  
+- **DevOps :** Docker, CI/CD, AWS, déploiement cloud  
+- **Data :** PostgreSQL, MongoDB  
+- **Architecture :** Event-driven, microservices  
 
 ---
 
 ## ⚡ Highlights
 
-- 🟣 Architecture event-driven avec Kafka  
-- 🐳 Déploiement Docker + CI/CD automatisé  
-- ☁️ Applications déployées (VPS, AWS, Render)  
-- ☕ Développement backend avec Spring Boot  
-- 🚀 Projets complets de A à Z  
+- 🟣 Architecture **event-driven avec Kafka**  
+- ☕ Développement backend robuste avec **Spring Boot**  
+- 🐳 Déploiement avec **Docker + CI/CD automatisé**  
+- ☁️ Applications déployées (**AWS, VPS, Render**)  
+- 🚀 Projets conçus de **A à Z (code → prod)**  
 
 ---
 
@@ -54,10 +57,10 @@ Je maîtrise le cycle complet : conception, développement, tests, conteneurisat
 
 </div>
 
-Projet démontrant la conception d’une API robuste en Java avec bonnes pratiques backend et déploiement cloud.
+Projet backend démontrant la conception d’une API **robuste, testée et déployée** en Java.
 
 ### 🛠️ Stack
-Java · Spring Boot 4 · PostgreSQL · Flyway · JUnit · Docker · GitHub Actions · Render  
+Java · Spring Boot · PostgreSQL · Flyway · JUnit · Docker · GitHub Actions · Render  
 
 ### 🎯 Fonctionnalités
 - API REST complète (CRUD + pagination + validation)  
@@ -77,7 +80,7 @@ Java · Spring Boot 4 · PostgreSQL · Flyway · JUnit · Docker · GitHub Actio
 
 </div>
 
-Application de gestion de projets en architecture event-driven (Kafka).
+Application de gestion de projets en **architecture event-driven (Kafka)**.
 
 ### Stack
 React · NestJS · PostgreSQL · Kafka · Docker  
@@ -101,17 +104,17 @@ Marketplace fullstack avec authentification, dashboard et déploiement AWS.
 ### DaftLink — Développeur Full-Stack  
 *2024 – Présent*
 
-- Développement frontend Vue.js  
-- API Node.js  
-- CI/CD + Docker  
+- Développement frontend **Vue.js**  
+- API backend **Node.js**  
+- Mise en place **CI/CD & Docker**  
 
 ---
 
 ## 🎓 Parcours
 
-- Software Engineer (Bac+5) — 2026  
-- Concepteur Développeur Logiciel (Bac+3)  
-- Développeur Web (Bac+2)  
+- 🎯 Software Engineer (Bac+5) — 2026 (alternance)  
+- ✅ Concepteur Développeur Logiciel (Bac+3)  
+- ✅ Développeur Web (Bac+2)  
 
 ---
 
