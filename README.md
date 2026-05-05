@@ -1,11 +1,11 @@
 <div align="center">
 
 # 👋 Mathieu FENOUIL
-### Software Engineer (Full-Stack & DevOps)
+### Software Engineer (Full-Stack & Distributed Systems)
 
-🚀 React · Node.js · NestJS · Kafka · Spring Boot · Docker · AWS
+🚀 React · Node.js · NestJS · Spring Boot · Kafka · Docker · AWS
 
-🎯 Alternance Bac+5 Software Engineer (disponible Juin / Septembre 2026)
+🎯 Alternance Bac+5 Software Engineer — Juin / Septembre 2026
 
 <p>
   <a href="https://www.linkedin.com/in/mathieu-fenouil/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
@@ -19,62 +19,70 @@
 
 ## 🚀 Profil
 
-Développeur orienté **Software Engineering & systèmes distribués**, je conçois des applications **scalables, testées et déployées en production**.
+Développeur orienté **Software Engineering & systèmes distribués**, je conçois des applications **scalables, testées et déployées en conditions réelles**.
 
-💡 Approche :
-- Architecture propre (modulaire, maintenable)
-- Event-driven (Kafka, Outbox Pattern)
-- CI/CD & automatisation
-- Déploiement réel (AWS, VPS, Render)
+💡 Ce que j’apporte :
+- Architecture backend propre et maintenable  
+- Systèmes event-driven (Kafka, Outbox Pattern)  
+- Automatisation CI/CD & déploiement  
+- Vision produit + technique  
 
-👉 **Pas seulement du code : des applications complètes en production.**
+👉 **Je ne code pas des features, je construis des systèmes.**
 
 ---
 
 ## 🔥 Projets clés
 
-### ☕ FoodExpress — API Spring Boot (Backend robuste)
-🔗 https://foodexpress-api-2xp2.onrender.com/swagger-ui/index.html
-🔗 https://github.com/Matfen2/foodexpress
+### ☕ FoodExpress — API Backend (Spring Boot)
 
-API de gestion de livraisons conçue avec une approche **production-ready**.
+🔗 https://foodexpress-api-2xp2.onrender.com/swagger-ui/index.html  
+🔗 https://github.com/Matfen2/foodexpress  
+
+API de gestion de commandes conçue avec une approche **production-ready**.
 
 **Stack :** Java · Spring Boot · PostgreSQL · Flyway · Docker · CI/CD  
 
-✔️ API REST complète (CRUD + pagination)  
+✔️ Architecture en couches (Controller / Service / Repository)  
 ✔️ Gestion des erreurs centralisée  
+✔️ Validation DTO + sécurité des données  
 ✔️ Migrations versionnées (Flyway)  
 ✔️ Tests unitaires (JUnit)  
 ✔️ Swagger auto-documenté  
-✔️ Déployé sur Render avec pipeline CI/CD  
+✔️ Déployé (Render) avec pipeline CI/CD  
+
+💡 *Objectif : construire une API robuste et évolutive, prête à scaler.*
 
 ---
 
-### 🟣 Freello — Event-Driven App (Kafka + Microservices mindset)
+### 🟣 Freello — Event-Driven App (Kafka)
+
 🔗 https://freello.site  
 🔗 https://github.com/Matfen2/freello  
 
-App type Trello avec architecture **event-driven distribuée**.
+Application de gestion de projets basée sur une architecture **event-driven distribuée**.
 
 **Stack :** React · NestJS · PostgreSQL · Kafka · Docker  
 
-✔️ Outbox Pattern (consistance des événements)  
-✔️ Kafka (event streaming)  
-✔️ Auth sécurisée (JWT HttpOnly)  
-✔️ CI/CD + déploiement VPS  
+✔️ Event-driven architecture (Kafka)  
+✔️ Outbox Pattern (consistance des données)  
+✔️ Auth sécurisée (JWT HttpOnly + Guards)  
+✔️ CI/CD complet + déploiement VPS  
+
+💡 *Approche microservices et découplage des composants.*
 
 ---
 
 ### 🔶 TechPulse — Marketplace Fullstack
+
 🔗 http://techpulse-portfolio.com  
 
-Marketplace e-commerce + C2C avec déploiement cloud.
+Marketplace B2C + C2C avec déploiement cloud.
 
 **Stack :** React · Node.js · MongoDB · AWS EC2 · Docker  
 
 ✔️ Authentification JWT  
 ✔️ Dashboard admin + analytics  
-✔️ Upload vidéo (Cloudinary)  
+✔️ Upload média (Cloudinary)  
 ✔️ Déploiement AWS  
 
 ---
@@ -84,9 +92,9 @@ Marketplace e-commerce + C2C avec déploiement cloud.
 ### Développeur Full-Stack — DaftLink *(2024 – aujourd’hui)*
 
 - Développement frontend (Vue.js)
-- API backend Node.js
+- API backend (Node.js)
 - CI/CD & Docker
-- Travail en environnement startup (features rapides, production)
+- Livraison rapide de features en production
 
 ---
 
@@ -109,13 +117,13 @@ Docker · CI/CD · AWS · Linux
 ## 🎯 Objectif
 
 🎓 Alternance Software Engineer (Bac+5)  
-📅 Disponibilité : **Juin ou Septembre 2026**  
+📅 Disponibilité : **Juin / Septembre 2026**  
 📍 Mobilité : France entière  
 
-👉 Recherche environnement avec :
-- enjeux techniques
-- architecture scalable
-- bonnes pratiques engineering
+👉 Je recherche :
+- des problématiques techniques réelles  
+- des architectures scalables  
+- un environnement orienté engineering  
 
 ---
 
@@ -126,4 +134,4 @@ Docker · CI/CD · AWS · Linux
 
 ---
 
-💡 *Reconversion audiovisuel → développement : rigueur terrain + passion tech*
+💡 *Reconversion audiovisuel → software engineering : rigueur terrain + approche technique structurée*
