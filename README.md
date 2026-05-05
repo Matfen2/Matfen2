@@ -5,7 +5,7 @@
 
 🚀 React · Node.js · NestJS · Spring Boot · Kafka · Docker · AWS
 
-🎯 Alternance Bac+5 Software Engineer — Juin / Septembre 2026
+🎯 Alternance Bac+5 Software Engineer - Juin / Septembre 2026
 
 <p>
   <a href="https://www.linkedin.com/in/mathieu-fenouil/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
@@ -33,7 +33,7 @@ Développeur orienté **Software Engineering & systèmes distribués**, je conç
 
 ## 🔥 Projets clés
 
-### ☕ FoodExpress — API Backend (Spring Boot)
+### ☕ FoodExpress - API Backend (Spring Boot)
 
 🔗 https://foodexpress-api-2xp2.onrender.com/swagger-ui/index.html  
 🔗 https://github.com/Matfen2/foodexpress  
@@ -54,7 +54,7 @@ API de gestion de commandes conçue avec une approche **production-ready**.
 
 ---
 
-### 🟣 Freello — Event-Driven App (Kafka)
+### 🟣 Freello - Event-Driven App (Kafka)
 
 🔗 https://freello.site  
 🔗 https://github.com/Matfen2/freello  
@@ -72,7 +72,7 @@ Application de gestion de projets basée sur une architecture **event-driven dis
 
 ---
 
-### 🔶 TechPulse — Marketplace Fullstack
+### 🔶 TechPulse - Marketplace Fullstack
 
 🔗 http://techpulse-portfolio.com  
 
@@ -89,7 +89,7 @@ Marketplace B2C + C2C avec déploiement cloud.
 
 ## 💼 Expérience
 
-### Développeur Full-Stack — DaftLink *(2024 – aujourd’hui)*
+### Développeur Full-Stack - DaftLink *(2024 – aujourd’hui)*
 
 - Développement frontend (Vue.js)
 - API backend (Node.js)
