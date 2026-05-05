@@ -47,8 +47,6 @@ API de gestion de livraisons conçue avec une approche **production-ready**.
 ✔️ Swagger auto-documenté  
 ✔️ Déployé sur Render avec pipeline CI/CD  
 
-👉 **Focus recruteur : maîtrise backend Java + bonnes pratiques industrielles**
-
 ---
 
 ### 🟣 Freello — Event-Driven App (Kafka + Microservices mindset)
@@ -64,8 +62,6 @@ App type Trello avec architecture **event-driven distribuée**.
 ✔️ Auth sécurisée (JWT HttpOnly)  
 ✔️ CI/CD + déploiement VPS  
 
-👉 **Focus recruteur : compréhension des systèmes distribués (rare junior)**
-
 ---
 
 ### 🔶 TechPulse — Marketplace Fullstack
@@ -79,8 +75,6 @@ Marketplace e-commerce + C2C avec déploiement cloud.
 ✔️ Dashboard admin + analytics  
 ✔️ Upload vidéo (Cloudinary)  
 ✔️ Déploiement AWS  
-
-👉 **Focus recruteur : produit complet + logique métier**
 
 ---
 
