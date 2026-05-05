@@ -34,6 +34,7 @@ Développeur orienté **Software Engineering & systèmes distribués**, je conç
 ## 🔥 Projets clés
 
 ### ☕ FoodExpress — API Spring Boot (Backend robuste)
+🔗 https://foodexpress-api-2xp2.onrender.com/swagger-ui/index.html
 🔗 https://github.com/Matfen2/foodexpress
 
 API de gestion de livraisons conçue avec une approche **production-ready**.
