@@ -31,9 +31,8 @@ Développeur full-stack avec une approche **orientée système** : je ne livre p
 
 ## 🔥 Projets clés
 
-### ⚖️ JuriBook — Plateforme de réservation juridique (microservices)
-🔗 *[En cours — projet de fin de cursus Bac+5]*  
-🔗 https://github.com/Matfen2/juribook *(privé)*
+### ⚖️ JuriBook - Plateforme de réservation juridique (microservices)
+🔗 *[En cours de développement]*  
 
 Plateforme de prise de rendez-vous avec des avocats, conçue en **architecture microservices event-driven**.
 
@@ -72,24 +71,9 @@ API de gestion de commandes construite avec une approche **production-ready**.
 
 ---
 
-### 🔶 TechPulse — Marketplace Fullstack
-🔗 http://techpulse-portfolio.com  
-🔗 https://github.com/Matfen2/techpulse
-
-Marketplace B2C/C2C avec déploiement cloud.
-
-**Stack :** React · TypeScript · Node.js · Express · MongoDB · Cloudinary · AWS EC2 · Docker
-
-✔️ Auth JWT + gestion des rôles  
-✔️ Dashboard admin + analytics  
-✔️ Upload média (Cloudinary)  
-✔️ Déploiement AWS EC2 + SSL Let's Encrypt
-
----
-
 ## 💼 Expérience
 
-### Développeur Full-Stack — DaftLink *(2024 – aujourd'hui)*
+### Développeur Full-Stack - DaftLink *(2024 - aujourd'hui)*
 *SaaS B2B*
 
 - Développé des interfaces React/Vue.js pour une SaaS B2B en livraison continue
