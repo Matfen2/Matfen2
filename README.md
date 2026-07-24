@@ -3,7 +3,7 @@
 # 👋 Mathieu FENOUIL
 ### Développeur Full-Stack
 
-🚀 React · TypeScript · Spring Boot · Node.js · Kafka · Docker · Kubernetes
+🚀 React · TypeScript · Spring Boot · Java · PostgreSQL · Node.js · Kafka · Docker · Kubernetes 
 
 <p>
   <a href="https://www.linkedin.com/in/mathieu-fenouil-développeur-full-stack/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
@@ -52,6 +52,28 @@ Plateforme de prise de rendez-vous avec des avocats, conçue en **architecture m
 
 ---
 
+### 📚 BookLoop API - API REST de location de livres (Node.js)
+🔗 https://bookloop-api-ljka.onrender.com  
+🔗 https://bookloop-api-ljka.onrender.com/api-docs  
+🔗 https://github.com/Matfen2/bookloop-api
+
+API REST complète simulant une plateforme de **location de livres en ligne**, avec gestion de la disponibilité en temps réel via transactions SQL atomiques.
+
+**Stack :** Node.js · Express · PostgreSQL · JWT · Zod · Jest · Supertest · Swagger · Render
+
+✔️ Architecture MVC (membres, livres, locations)  
+✔️ Auth JWT + bcrypt (register / login / routes protégées)  
+✔️ Validation des entrées avec Zod  
+✔️ Transactions SQL atomiques BEGIN/COMMIT/ROLLBACK  
+✔️ Route `PATCH /locations/:id/retour` - retour du livre en une transaction  
+✔️ Documentation interactive Swagger UI  
+✔️ 27 tests Jest + Supertest (unitaires + intégration)  
+✔️ Déployé sur Render avec PostgreSQL managé
+
+💡 *Point fort : intégrité des données garantie par transactions SQL, pattern production utilisé dans tous les systèmes de réservation.*
+
+---
+
 ### ☕ FoodExpress - API REST (Spring Boot)
 🔗 https://foodexpress-api-2xp2.onrender.com/swagger-ui/index.html  
 🔗 https://github.com/Matfen2/foodexpress
@@ -88,11 +110,13 @@ API de gestion de commandes construite avec une approche **production-ready**.
 | Domaine | Technologies |
 |---|---|
 | **Frontend** | React · TypeScript · Tailwind CSS |
-| **Backend** | Java / Spring Boot · Node.js · NestJS · API REST |
+| **Backend** | Java / Spring Boot · Node.js · Express · NestJS · API REST |
+| **Tests** | Jest · Supertest · JUnit · Mockito |
 | **Messaging** | Apache Kafka KRaft · Avro · Schema Registry |
 | **Bases de données** | PostgreSQL · MongoDB · Flyway |
 | **DevOps** | Docker · Kubernetes · Terraform · GitHub Actions · CI/CD |
 | **Cloud** | Scaleway (Kapsule, RDB) · AWS EC2 · Render |
+| **Outils** | Swagger · Zod · JWT · bcrypt · dotenv |
 
 ---
 
