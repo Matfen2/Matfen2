@@ -1,16 +1,14 @@
 <div align="center">
 
 # 👋 Mathieu FENOUIL
-### Software Engineer (Full-Stack & Distributed Systems)
+### Développeur Full-Stack
 
-🚀 React · Node.js · NestJS · Spring Boot · Kafka · Docker · AWS
-
-🎯 Alternance Bac+5 Software Engineer - Juin / Septembre 2026
+🚀 React · Next · TypeScript · Spring Boot · Node.js · Kafka · Docker · Kubernetes
 
 <p>
-  <a href="https://www.linkedin.com/in/mathieu-fenouil/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+  <a href="https://www.linkedin.com/in/mathieu-fenouil-développeur-full-stack/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
   <a href="https://github.com/Matfen2"><img src="https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=github"/></a>
-  <a href="mailto:mathieu.fenouil.pro@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+  <a href="mailto:matfen3.05@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>
 </p>
 
 </div>
@@ -19,119 +17,110 @@
 
 ## 🚀 Profil
 
-Développeur orienté **Software Engineering & systèmes distribués**, je conçois des applications **scalables, testées et déployées en conditions réelles**.
+Développeur full-stack avec une approche **orientée système** : je ne livre pas des features, je construis des architectures qui tiennent en production.
 
-💡 Ce que j’apporte :
-- Architecture backend propre et maintenable  
-- Systèmes event-driven (Kafka, Outbox Pattern)  
-- Automatisation CI/CD & déploiement  
-- Vision produit + technique  
+💡 Ce que j'apporte :
+- Frontend React / TypeScript structuré et maintenable
+- Backend Java Spring Boot & Node.js orienté domain
+- Systèmes event-driven (Kafka, Outbox Pattern, microservices)
+- DevOps end-to-end : CI/CD, Docker, Kubernetes, Terraform, cloud Scaleway / AWS
 
-👉 **Je ne code pas des features, je construis des systèmes.**
+👉 **Reconversion depuis l'audiovisuel : rigueur terrain, livraison sous contrainte, sens du produit.**
 
 ---
 
 ## 🔥 Projets clés
 
-### ☕ FoodExpress - API Backend (Spring Boot)
+### ⚖️ JuriBook — Plateforme de réservation juridique (microservices)
+🔗 *[En cours — projet de fin de cursus Bac+5]*  
+🔗 https://github.com/Matfen2/juribook *(privé)*
 
+Plateforme de prise de rendez-vous avec des avocats, conçue en **architecture microservices event-driven**.
+
+**Stack :** React · TypeScript · Java · Spring Boot · Kafka KRaft · PostgreSQL · Docker · Kubernetes · Terraform · Scaleway
+
+✔️ 6 microservices indépendants (auth, avocat, réservation, notification, audit, API Gateway)  
+✔️ Event-driven via Kafka KRaft (pas de ZooKeeper)  
+✔️ Auth JWT centralisée dans la gateway (Spring Cloud Gateway)  
+✔️ Pipeline analytics Kafka + dashboards admin  
+✔️ Détection d'abus et système d'audit  
+✔️ Upload de documents + système d'avis avec recalcul de note  
+✔️ Infra Kubernetes (Minikube local → Kapsule Scaleway)  
+✔️ Infrastructure as Code (Terraform : cluster K8s, RDB PostgreSQL, réseau privé)  
+✔️ CI/CD GitHub Actions
+
+💡 *Architecture production-ready pensée pour la montée en charge.*
+
+---
+
+### ☕ FoodExpress - API REST (Spring Boot)
 🔗 https://foodexpress-api-2xp2.onrender.com/swagger-ui/index.html  
-🔗 https://github.com/Matfen2/foodexpress  
+🔗 https://github.com/Matfen2/foodexpress
 
-API de gestion de commandes conçue avec une approche **production-ready**.
+API de gestion de commandes construite avec une approche **production-ready**.
 
-**Stack :** Java · Spring Boot · PostgreSQL · Flyway · Docker · CI/CD  
+**Stack :** Java · Spring Boot · PostgreSQL · Flyway · Docker · CI/CD · Render
 
 ✔️ Architecture en couches (Controller / Service / Repository)  
-✔️ Gestion des erreurs centralisée  
-✔️ Validation DTO + sécurité des données  
+✔️ Validation DTO + gestion centralisée des erreurs  
 ✔️ Migrations versionnées (Flyway)  
 ✔️ Tests unitaires (JUnit)  
 ✔️ Swagger auto-documenté  
-✔️ Déployé (Render) avec pipeline CI/CD  
+✔️ Pipeline CI/CD : GitHub Actions → GHCR → deploy hook Render
 
-💡 *Objectif : construire une API robuste et évolutive, prête à scaler.*
-
----
-
-### 🟣 Freello - Event-Driven App (Kafka)
-
-🔗 https://freello.site  
-🔗 https://github.com/Matfen2/freello  
-
-Application de gestion de projets basée sur une architecture **event-driven distribuée**.
-
-**Stack :** React · NestJS · PostgreSQL · Kafka · Docker  
-
-✔️ Event-driven architecture (Kafka)  
-✔️ Outbox Pattern (consistance des données)  
-✔️ Auth sécurisée (JWT HttpOnly + Guards)  
-✔️ CI/CD complet + déploiement VPS  
-
-💡 *Approche microservices et découplage des composants.*
+💡 *Déployé et documenté, testable directement via Swagger.*
 
 ---
 
-### 🔶 TechPulse - Marketplace Fullstack
-
+### 🔶 TechPulse — Marketplace Fullstack
 🔗 http://techpulse-portfolio.com  
+🔗 https://github.com/Matfen2/techpulse
 
-Marketplace B2C + C2C avec déploiement cloud.
+Marketplace B2C/C2C avec déploiement cloud.
 
-**Stack :** React · Node.js · MongoDB · AWS EC2 · Docker  
+**Stack :** React · TypeScript · Node.js · Express · MongoDB · Cloudinary · AWS EC2 · Docker
 
-✔️ Authentification JWT  
+✔️ Auth JWT + gestion des rôles  
 ✔️ Dashboard admin + analytics  
 ✔️ Upload média (Cloudinary)  
-✔️ Déploiement AWS  
+✔️ Déploiement AWS EC2 + SSL Let's Encrypt
 
 ---
 
 ## 💼 Expérience
 
-### Développeur Full-Stack - DaftLink *(2024 – aujourd’hui)*
+### Développeur Full-Stack — DaftLink *(2024 – aujourd'hui)*
+*SaaS B2B*
 
-- Développement frontend (Vue.js)
-- API backend (Node.js)
-- CI/CD & Docker
-- Livraison rapide de features en production
-
----
-
-## 🧠 Compétences clés
-
-**Backend :**  
-Java (Spring Boot) · Node.js · NestJS · API REST  
-
-**Frontend :**  
-React · Vue.js  
-
-**Data :**  
-PostgreSQL · MongoDB  
-
-**DevOps :**  
-Docker · CI/CD · AWS · Linux  
+- Développé des interfaces React/Vue.js pour une SaaS B2B en livraison continue
+- Conçu des endpoints REST Node.js intégrés à un pipeline CI/CD Docker
+- Proposé et implémenté des solutions techniques en collaboration avec l'équipe sur des problématiques produit spécifiques
+- Livré des features en production dans un contexte produit réel sous contrainte délai
 
 ---
 
-## 🎯 Objectif
+## 🧠 Stack technique
 
-🎓 Alternance Software Engineer (Bac+5)  
-📅 Disponibilité : **Juin / Septembre 2026**  
-📍 Mobilité : France entière  
-
-👉 Je recherche :
-- des problématiques techniques réelles  
-- des architectures scalables  
-- un environnement orienté engineering  
-
----
-
-## 📫 Contact
-
-📧 mathieu.fenouil.pro@gmail.com  
-💼 https://www.linkedin.com/in/mathieu-fenouil  
+| Domaine | Technologies |
+|---|---|
+| **Frontend** | React · TypeScript · Tailwind CSS |
+| **Backend** | Java / Spring Boot · Node.js · NestJS · API REST |
+| **Messaging** | Apache Kafka KRaft · Avro · Schema Registry |
+| **Bases de données** | PostgreSQL · MongoDB · Flyway |
+| **DevOps** | Docker · Kubernetes · Terraform · GitHub Actions · CI/CD |
+| **Cloud** | Scaleway (Kapsule, RDB) · AWS EC2 · Render |
 
 ---
 
-💡 *Reconversion audiovisuel → software engineering : rigueur terrain + approche technique structurée*
+## 🎯 Recherche
+
+**CDI Développeur Full-Stack** - disponible immédiatement  
+📍 Mobilité : PACA · Montpellier · Lyon · Toulouse · Remote
+
+Je recherche un environnement où :
+- les architectures sont pensées pour durer
+- la qualité technique est une priorité
+- les problèmes à résoudre sont réels et complexes
+
+📧 matfen3.05@gmail.com  
+💼 [linkedin.com/in/mathieu-fenouil-développeur-full-stack](https://www.linkedin.com/in/mathieu-fenouil-développeur-full-stack/)
