@@ -3,7 +3,7 @@
 # 👋 Mathieu FENOUIL
 ### Développeur Full-Stack
 
-🚀 React · Next · TypeScript · Spring Boot · Node.js · Kafka · Docker · Kubernetes
+🚀 React · TypeScript · Spring Boot · Node.js · Kafka · Docker · Kubernetes
 
 <p>
   <a href="https://www.linkedin.com/in/mathieu-fenouil-développeur-full-stack/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
@@ -32,7 +32,7 @@ Développeur full-stack avec une approche **orientée système** : je ne livre p
 ## 🔥 Projets clés
 
 ### ⚖️ JuriBook - Plateforme de réservation juridique (microservices)
-🔗 *[En cours de développement]*  
+🔗 *[En cours]*  
 
 Plateforme de prise de rendez-vous avec des avocats, conçue en **architecture microservices event-driven**.
 
@@ -73,7 +73,7 @@ API de gestion de commandes construite avec une approche **production-ready**.
 
 ## 💼 Expérience
 
-### Développeur Full-Stack - DaftLink *(2024 - aujourd'hui)*
+### Développeur Full-Stack - DaftLink *(2024 – aujourd'hui)*
 *SaaS B2B*
 
 - Développé des interfaces React/Vue.js pour une SaaS B2B en livraison continue
@@ -99,7 +99,7 @@ API de gestion de commandes construite avec une approche **production-ready**.
 ## 🎯 Recherche
 
 **CDI Développeur Full-Stack** - disponible immédiatement  
-📍 Mobilité : PACA · Montpellier · Lyon · Toulouse · Remote
+📍 Basé en région PACA, mobilité France entière + remote
 
 Je recherche un environnement où :
 - les architectures sont pensées pour durer
