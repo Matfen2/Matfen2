@@ -95,7 +95,7 @@ API de gestion de commandes construite avec une approche **production-ready**.
 
 ## 💼 Expérience
 
-### Développeur Full-Stack - DaftLink *(2024 – aujourd'hui)*
+### Développeur Full-Stack - DaftLink *(2024 - aujourd'hui)*
 *SaaS B2B*
 
 - Développé des interfaces React/Vue.js pour une SaaS B2B en livraison continue
