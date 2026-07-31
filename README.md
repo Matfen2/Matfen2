@@ -16,17 +16,16 @@
 ---
 
 ## 🚀 Profil
-
+ 
 Développeur full-stack avec une approche **orientée système** : je ne livre pas des features, je construis des architectures qui tiennent en production.
-
+ 
 💡 Ce que j'apporte :
 - Frontend React / TypeScript structuré et maintenable
 - Backend Java Spring Boot & Node.js orienté domain
 - Systèmes event-driven (Kafka, Outbox Pattern, microservices)
 - DevOps end-to-end : CI/CD, Docker, Kubernetes, Terraform, cloud Scaleway / AWS
-
 👉 **Reconversion depuis l'audiovisuel : rigueur terrain, livraison sous contrainte, sens du produit.**
-
+ 
 ---
 
 ## 🔥 Projets clés
@@ -94,41 +93,39 @@ API de gestion de commandes construite avec une approche **production-ready**.
 ---
 
 ## 💼 Expérience
-
-### Développeur Full-Stack - DaftLink *(2024 - aujourd'hui)*
-*SaaS B2B*
-
-- Développé des interfaces React/Vue.js pour une SaaS B2B en livraison continue
+ 
+### Développeur Full-Stack - DaftLink *(Bénévolat - 2024 - aujourd'hui)*
+*SaaS B2B · Engagement compatible avec une alternance ou un CDI*
+ 
+- Développé des interfaces React/Vue.js pour un SaaS B2B en livraison continue
 - Conçu des endpoints REST Node.js intégrés à un pipeline CI/CD Docker
 - Proposé et implémenté des solutions techniques en collaboration avec l'équipe sur des problématiques produit spécifiques
 - Livré des features en production dans un contexte produit réel sous contrainte délai
-
 ---
-
+ 
 ## 🧠 Stack technique
-
+ 
 | Domaine | Technologies |
 |---|---|
 | **Frontend** | React · TypeScript · Tailwind CSS |
 | **Backend** | Java / Spring Boot · Node.js · Express · NestJS · API REST |
-| **Tests** | Jest · Supertest · JUnit · Mockito |
+| **Tests** | Jest · Supertest · JUnit · Mockito · Cypress (E2E) |
 | **Messaging** | Apache Kafka KRaft · Avro · Schema Registry |
 | **Bases de données** | PostgreSQL · MongoDB · Flyway |
 | **DevOps** | Docker · Kubernetes · Terraform · GitHub Actions · CI/CD |
 | **Cloud** | Scaleway (Kapsule, RDB) · AWS EC2 · Render |
 | **Outils** | Swagger · Zod · JWT · bcrypt · dotenv |
-
+ 
 ---
-
+ 
 ## 🎯 Recherche
-
-**CDI Développeur Full-Stack** - disponible immédiatement  
-📍 Basé en région PACA, mobilité France entière + remote
-
+ 
+**CDI Développeur Full-Stack** ou **Alternance Mastère Bac+5 Software Engineer** (Liora, rentrée septembre 2026)  
+📍 Basé en région PACA (prioritaire) - mobilité PACA + remote
+ 
 Je recherche un environnement où :
 - les architectures sont pensées pour durer
 - la qualité technique est une priorité
 - les problèmes à résoudre sont réels et complexes
-
 📧 matfen3.05@gmail.com  
 💼 [linkedin.com/in/mathieu-fenouil-développeur-full-stack](https://www.linkedin.com/in/mathieu-fenouil-développeur-full-stack/)
