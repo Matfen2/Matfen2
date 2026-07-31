@@ -127,5 +127,6 @@ Je recherche un environnement où :
 - les architectures sont pensées pour durer
 - la qualité technique est une priorité
 - les problèmes à résoudre sont réels et complexes
+
 📧 matfen3.05@gmail.com  
 💼 [linkedin.com/in/mathieu-fenouil-développeur-full-stack](https://www.linkedin.com/in/mathieu-fenouil-développeur-full-stack/)
