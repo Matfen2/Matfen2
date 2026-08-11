@@ -24,6 +24,7 @@ Développeur full-stack avec une approche **orientée système** : je ne livre p
 - Backend Java Spring Boot & Node.js orienté domain
 - Systèmes event-driven (Kafka, Outbox Pattern, microservices)
 - DevOps end-to-end : CI/CD, Docker, Kubernetes, Terraform, cloud Scaleway / AWS
+
 👉 **Reconversion depuis l'audiovisuel : rigueur terrain, livraison sous contrainte, sens du produit.**
  
 ---
@@ -52,8 +53,7 @@ Plateforme de prise de rendez-vous avec des avocats, conçue en **architecture m
 ---
 
 ### 📚 BookLoop API - API REST de location de livres (Node.js)
-🔗 https://bookloop-api-ljka.onrender.com  
-🔗 https://bookloop-api-ljka.onrender.com/api-docs  
+🔗 https://matfen2.github.io/bookloop-api/  
 🔗 https://github.com/Matfen2/bookloop-api
 
 API REST complète simulant une plateforme de **location de livres en ligne**, avec gestion de la disponibilité en temps réel via transactions SQL atomiques.
@@ -74,7 +74,7 @@ API REST complète simulant une plateforme de **location de livres en ligne**, a
 ---
 
 ### ☕ FoodExpress - API REST (Spring Boot)
-🔗 https://foodexpress-api-2xp2.onrender.com/swagger-ui/index.html  
+🔗 https://matfen2.github.io/foodexpress/  
 🔗 https://github.com/Matfen2/foodexpress
 
 API de gestion de commandes construite avec une approche **production-ready**.
@@ -83,12 +83,13 @@ API de gestion de commandes construite avec une approche **production-ready**.
 
 ✔️ Architecture en couches (Controller / Service / Repository)  
 ✔️ Validation DTO + gestion centralisée des erreurs  
-✔️ Migrations versionnées (Flyway)  
-✔️ Tests unitaires (JUnit)  
+✔️ Migrations versionnées (Flyway V1→V4)  
+✔️ Tests unitaires (JUnit 5, Mockito, MockMvc)  
 ✔️ Swagger auto-documenté  
-✔️ Pipeline CI/CD : GitHub Actions → GHCR → deploy hook Render
+✔️ Pipeline CI/CD : GitHub Actions → GHCR → auto-deploy Render  
+✔️ Monitoring production : UptimeRobot sur `/actuator/health`, 100% uptime 7 jours, ~101ms
 
-💡 *Déployé et documenté, testable directement via Swagger.*
+💡 *Déployé, monitoré et documenté - testable instantanément via la landing page.*
 
 ---
 
@@ -101,6 +102,7 @@ API de gestion de commandes construite avec une approche **production-ready**.
 - Conçu des endpoints REST Node.js intégrés à un pipeline CI/CD Docker
 - Proposé et implémenté des solutions techniques en collaboration avec l'équipe sur des problématiques produit spécifiques
 - Livré des features en production dans un contexte produit réel sous contrainte délai
+
 ---
  
 ## 🧠 Stack technique
@@ -120,7 +122,7 @@ API de gestion de commandes construite avec une approche **production-ready**.
  
 ## 🎯 Recherche
  
-**CDI Développeur Full-Stack** ou **Alternance Mastère Bac+5 Software Engineer** (Liora, rentrée septembre 2026)  
+**CDI Développeur Full-Stack** ou **Alternance Mastère Bac+5 Software Engineer** (Liora, rentrée septembre 2026 ou novembre 2026)  
 📍 Basé en région PACA (prioritaire) - mobilité PACA + remote
  
 Je recherche un environnement où :
