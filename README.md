@@ -32,7 +32,7 @@ Développeur full-stack avec une approche **orientée système** : je ne livre p
 ## 🔥 Projets clés
 
 ### ⚖️ JuriBook - Plateforme de réservation juridique (microservices)
-🔗 **https://juribook.fr** · [GitHub](https://github.com/Matfen2)
+🔗 **https://juribook.fr**
 
 Plateforme de prise de rendez-vous avec des avocats, conçue en **architecture microservices event-driven**, déployée en production.
 
