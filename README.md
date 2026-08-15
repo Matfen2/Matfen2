@@ -32,23 +32,23 @@ Développeur full-stack avec une approche **orientée système** : je ne livre p
 ## 🔥 Projets clés
 
 ### ⚖️ JuriBook - Plateforme de réservation juridique (microservices)
-🔗 *[En cours]*  
+🔗 **https://juribook.fr** · [GitHub](https://github.com/Matfen2)
 
-Plateforme de prise de rendez-vous avec des avocats, conçue en **architecture microservices event-driven**.
+Plateforme de prise de rendez-vous avec des avocats, conçue en **architecture microservices event-driven**, déployée en production.
 
 **Stack :** React · TypeScript · Java · Spring Boot · Kafka KRaft · PostgreSQL · Docker · Kubernetes · Terraform · Scaleway
 
 ✔️ 6 microservices indépendants (auth, avocat, réservation, notification, audit, API Gateway)  
 ✔️ Event-driven via Kafka KRaft (pas de ZooKeeper)  
-✔️ Auth JWT centralisée dans la gateway (Spring Cloud Gateway)  
+✔️ Auth JWT centralisée dans la gateway (Spring Cloud Gateway WebMVC)  
 ✔️ Pipeline analytics Kafka + dashboards admin  
 ✔️ Détection d'abus et système d'audit  
 ✔️ Upload de documents + système d'avis avec recalcul de note  
-✔️ Infra Kubernetes (Minikube local → Kapsule Scaleway)  
 ✔️ Infrastructure as Code (Terraform : cluster K8s, RDB PostgreSQL, réseau privé)  
-✔️ CI/CD GitHub Actions
+✔️ CI/CD GitHub Actions → GHCR → Scaleway Kapsule  
+✔️ SSL Let's Encrypt via cert-manager · 43 tests Cypress E2E au vert
 
-💡 *Architecture production-ready pensée pour la montée en charge.*
+💡 *Production-ready : https://juribook.fr*
 
 ---
 
