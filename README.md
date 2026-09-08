@@ -96,7 +96,7 @@ API de gestion de commandes construite avec une approche **production-ready**.
 ## 💼 Expérience
  
 ### Développeur Full-Stack - DaftLink *(Bénévolat - 2024 - aujourd'hui)*
-*SaaS B2B · Engagement compatible avec une alternance ou un CDI*
+*SaaS B2B · Engagement compatible avec une prise de poste en CDI*
  
 - Développé des interfaces React/Vue.js pour un SaaS B2B en livraison continue
 - Conçu des endpoints REST Node.js intégrés à un pipeline CI/CD Docker
@@ -121,10 +121,10 @@ API de gestion de commandes construite avec une approche **production-ready**.
 ---
  
 ## 🎯 Recherche
- 
-**CDI Développeur Full-Stack** ou **Alternance Mastère Bac+5 Software Engineer** (Liora, rentrée septembre 2026 ou novembre 2026)  
+
+**CDI Développeur Full-Stack**  
 📍 Basé en région PACA (prioritaire) - mobilité PACA + remote
- 
+
 Je recherche un environnement où :
 - les architectures sont pensées pour durer
 - la qualité technique est une priorité
