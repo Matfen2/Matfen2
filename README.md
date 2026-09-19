@@ -41,36 +41,13 @@ Plateforme de prise de rendez-vous avec des avocats, conçue en **architecture m
 ✔️ 6 microservices indépendants (auth, avocat, réservation, notification, audit, API Gateway)  
 ✔️ Event-driven via Kafka KRaft (pas de ZooKeeper)  
 ✔️ Auth JWT centralisée dans la gateway (Spring Cloud Gateway WebMVC)  
-✔️ Pipeline analytics Kafka + dashboards admin  
+✔️ Modération des avis côté admin : masquer/démasquer (réversible) ou supprimer définitivement, recalcul de note moyenne en temps réel dans la même transaction  
 ✔️ Détection d'abus et système d'audit  
-✔️ Upload de documents + système d'avis avec recalcul de note  
 ✔️ Infrastructure as Code (Terraform : cluster K8s, RDB PostgreSQL, réseau privé)  
 ✔️ CI/CD GitHub Actions → GHCR → Scaleway Kapsule  
 ✔️ SSL Let's Encrypt via cert-manager · 43 tests Cypress E2E au vert
 
 💡 *Production-ready : https://juribook.fr*
-
----
-
-### 📚 BookLoop API - API REST de location de livres (Node.js)
-🔗 https://matfen2.github.io/bookloop-api/  
-🔗 https://github.com/Matfen2/bookloop-api  
-
-⚠️ *Démo live arrêtée (quota d'hébergement gratuit) - code et tests disponibles dans le dépôt GitHub.*
-
-API REST complète simulant une plateforme de **location de livres en ligne**, avec gestion de la disponibilité en temps réel via transactions SQL atomiques.
-
-**Stack :** Node.js · Express · PostgreSQL · JWT · Zod · Jest · Supertest · Swagger
-
-✔️ Architecture MVC (membres, livres, locations)  
-✔️ Auth JWT + bcrypt (register / login / routes protégées)  
-✔️ Validation des entrées avec Zod  
-✔️ Transactions SQL atomiques BEGIN/COMMIT/ROLLBACK  
-✔️ Route `PATCH /locations/:id/retour` - retour du livre en une transaction  
-✔️ Documentation OpenAPI / Swagger UI  
-✔️ 27 tests Jest + Supertest (unitaires + intégration)  
-
-💡 *Point fort : intégrité des données garantie par transactions SQL, pattern production utilisé dans tous les systèmes de réservation.*
 
 ---
 
@@ -90,16 +67,16 @@ API de gestion de commandes construite avec une approche **production-ready**.
 ✔️ Pipeline CI/CD : GitHub Actions → GHCR → auto-deploy Render  
 ✔️ Monitoring : UptimeRobot sur la sonde `/actuator/health/liveness`, alertes email
 
-💡 *Déployé, monitoré et documenté - testable via la landing page (hébergement gratuit : premier appel parfois lent).*
+⚠️ *Démo actuellement suspendue (quota d'heures d'instance du tier gratuit Render dépassé) - reprise automatique prévue début octobre. Code, tests et documentation consultables sur le dépôt GitHub en attendant.*
 
 ---
 
 ## 💼 Expérience
  
-### Développeur Full-Stack - DaftLink *(Bénévolat - 2024 - aujourd'hui)*
+### Développeur Full-Stack - DaftLink *(Bénévolat - Décembre 2024 - Décembre 2025)*
 *SaaS B2B · Engagement compatible avec une prise de poste en CDI*
  
-- Développé des interfaces React/Vue.js pour un SaaS B2B en livraison continue
+- Développé des fonctionnalités front-end en Vue.js puis évolué vers du full-stack Node.js / MongoDB, pour un outil SaaS B2B en livraison continue
 - Conçu des endpoints REST Node.js intégrés à un pipeline CI/CD Docker
 - Proposé et implémenté des solutions techniques en collaboration avec l'équipe sur des problématiques produit spécifiques
 - Livré des features en production dans un contexte produit réel sous contrainte délai
@@ -113,10 +90,10 @@ API de gestion de commandes construite avec une approche **production-ready**.
 | **Frontend** | React · TypeScript · Tailwind CSS |
 | **Backend** | Java / Spring Boot · Node.js · Express · NestJS · API REST |
 | **Tests** | Jest · Supertest · JUnit · Mockito · Cypress (E2E) |
-| **Messaging** | Apache Kafka KRaft · Avro · Schema Registry |
+| **Messaging** | Apache Kafka KRaft |
 | **Bases de données** | PostgreSQL · MongoDB · Flyway |
 | **DevOps** | Docker · Kubernetes · Terraform · GitHub Actions · CI/CD |
-| **Cloud** | Scaleway (Kapsule, RDB) · AWS EC2 · Render |
+| **Cloud** | Scaleway (Kapsule, RDB) · Render |
 | **Outils** | Swagger · Zod · JWT · bcrypt · dotenv |
  
 ---
