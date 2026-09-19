@@ -54,20 +54,21 @@ Plateforme de prise de rendez-vous avec des avocats, conçue en **architecture m
 
 ### 📚 BookLoop API - API REST de location de livres (Node.js)
 🔗 https://matfen2.github.io/bookloop-api/  
-🔗 https://github.com/Matfen2/bookloop-api
+🔗 https://github.com/Matfen2/bookloop-api  
+
+⚠️ *Démo live arrêtée (quota d'hébergement gratuit) - code et tests disponibles dans le dépôt GitHub.*
 
 API REST complète simulant une plateforme de **location de livres en ligne**, avec gestion de la disponibilité en temps réel via transactions SQL atomiques.
 
-**Stack :** Node.js · Express · PostgreSQL · JWT · Zod · Jest · Supertest · Swagger · Render
+**Stack :** Node.js · Express · PostgreSQL · JWT · Zod · Jest · Supertest · Swagger
 
 ✔️ Architecture MVC (membres, livres, locations)  
 ✔️ Auth JWT + bcrypt (register / login / routes protégées)  
 ✔️ Validation des entrées avec Zod  
 ✔️ Transactions SQL atomiques BEGIN/COMMIT/ROLLBACK  
 ✔️ Route `PATCH /locations/:id/retour` - retour du livre en une transaction  
-✔️ Documentation interactive Swagger UI  
+✔️ Documentation OpenAPI / Swagger UI  
 ✔️ 27 tests Jest + Supertest (unitaires + intégration)  
-✔️ Déployé sur Render avec PostgreSQL managé
 
 💡 *Point fort : intégrité des données garantie par transactions SQL, pattern production utilisé dans tous les systèmes de réservation.*
 
@@ -87,9 +88,9 @@ API de gestion de commandes construite avec une approche **production-ready**.
 ✔️ Tests unitaires (JUnit 5, Mockito, MockMvc)  
 ✔️ Swagger auto-documenté  
 ✔️ Pipeline CI/CD : GitHub Actions → GHCR → auto-deploy Render  
-✔️ Monitoring production : UptimeRobot sur `/actuator/health`, 100% uptime 7 jours, ~101ms
+✔️ Monitoring : UptimeRobot sur la sonde `/actuator/health/liveness`, alertes email
 
-💡 *Déployé, monitoré et documenté - testable instantanément via la landing page.*
+💡 *Déployé, monitoré et documenté - testable via la landing page (hébergement gratuit : premier appel parfois lent).*
 
 ---
 
