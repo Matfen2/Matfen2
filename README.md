@@ -1,7 +1,7 @@
 <div align="center">
 
 # 👋 Mathieu FENOUIL
-### Développeur Full-Stack
+### Développeur Full-Stack Java/Spring Boot & React
 
 🚀 React · TypeScript · Spring Boot · Java · PostgreSQL · Node.js · Kafka · Docker · Kubernetes 
 
