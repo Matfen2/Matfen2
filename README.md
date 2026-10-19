@@ -71,24 +71,6 @@ Plateforme de prise de rendez-vous avec des avocats (cas d'usage fictif, sans cl
 
 ---
 
-### ☕ FoodExpress - API REST (Spring Boot)
-🔗 https://matfen2.github.io/foodexpress/  
-🔗 https://github.com/Matfen2/foodexpress
-
-API de gestion de commandes construite avec une approche **production-ready**.
-
-**Stack :** Java · Spring Boot · PostgreSQL · Flyway · Docker · CI/CD · Render
-
-✔️ Architecture en couches (Controller / Service / Repository)  
-✔️ Validation DTO + gestion centralisée des erreurs  
-✔️ Migrations versionnées (Flyway V1→V4)  
-✔️ Tests unitaires (JUnit 5, Mockito, MockMvc)  
-✔️ Swagger auto-documenté  
-✔️ Pipeline CI/CD : GitHub Actions → GHCR → auto-deploy Render  
-✔️ Monitoring : UptimeRobot sur la sonde `/actuator/health/liveness`, alertes email
-
----
-
 ## 💼 Expérience
 
 ### Développeur Full-Stack - DaftLink *(Bénévolat - Décembre 2024 - Décembre 2025)*
