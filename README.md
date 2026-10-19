@@ -32,11 +32,13 @@ Développeur full-stack avec une approche **orientée système** : je ne livre p
 
 ## 🔥 Projets clés
 
-### 🏭 MécaDétect - Suivi de maintenance industrielle (Java · Angular · Oracle)
+*Projets personnels, conçus et développés en autonomie pour démontrer mes compétences techniques : il ne s'agit pas de commandes clients. Chacun est traité comme un vrai projet, du cahier des charges à la mise en production.*
+
+### 🏭 MécaDétect - Suivi de maintenance industrielle (projet personnel · Java · Angular · Oracle)
 🔗 **https://mecadetect.duckdns.org** (comptes de démonstration dans le README)  
 🔗 https://github.com/Matfen2/mecadetect
 
-Application de GMAO : déclaration des pannes, planification des interventions par technicien habilité, pilotage du parc d'équipements. Conçue en 6 sprints à partir d'un cahier des charges (modélisation Merise, critères d'acceptation), développée en TDD et déployée en continu.
+Application de GMAO sur un cas d'usage réaliste : déclaration des pannes, planification des interventions par technicien habilité, pilotage du parc d'équipements. Conçue en 6 sprints à partir d'un cahier des charges (modélisation Merise, critères d'acceptation), développée en TDD et déployée en continu.
 
 **Stack :** Java 25 · Spring Boot 4 · Angular 21 · Oracle 23 (PL/SQL) · OpenAPI · Docker · Caddy · GitHub Actions · Oracle Cloud
 
@@ -51,10 +53,10 @@ Application de GMAO : déclaration des pannes, planification des interventions p
 
 ---
 
-### ⚖️ JuriBook - Plateforme de réservation juridique (microservices)
+### ⚖️ JuriBook - Plateforme de réservation juridique (projet personnel · microservices)
 🔗 **https://juribook.fr**
 
-Plateforme de prise de rendez-vous avec des avocats, conçue en **architecture microservices event-driven**, déployée en production.
+Plateforme de prise de rendez-vous avec des avocats (cas d'usage fictif, sans client réel), conçue en **architecture microservices event-driven**, déployée en production.
 
 **Stack :** React · TypeScript · Java · Spring Boot · Kafka KRaft · PostgreSQL · Docker · Kubernetes · Terraform · Scaleway
 
@@ -66,6 +68,24 @@ Plateforme de prise de rendez-vous avec des avocats, conçue en **architecture m
 ✔️ Infrastructure as Code (Terraform : cluster K8s, RDB PostgreSQL, réseau privé)  
 ✔️ CI/CD GitHub Actions → GHCR → Scaleway Kapsule  
 ✔️ SSL Let's Encrypt via cert-manager · 43 tests Cypress E2E au vert
+
+---
+
+### ☕ FoodExpress - API REST (Spring Boot)
+🔗 https://matfen2.github.io/foodexpress/  
+🔗 https://github.com/Matfen2/foodexpress
+
+API de gestion de commandes construite avec une approche **production-ready**.
+
+**Stack :** Java · Spring Boot · PostgreSQL · Flyway · Docker · CI/CD · Render
+
+✔️ Architecture en couches (Controller / Service / Repository)  
+✔️ Validation DTO + gestion centralisée des erreurs  
+✔️ Migrations versionnées (Flyway V1→V4)  
+✔️ Tests unitaires (JUnit 5, Mockito, MockMvc)  
+✔️ Swagger auto-documenté  
+✔️ Pipeline CI/CD : GitHub Actions → GHCR → auto-deploy Render  
+✔️ Monitoring : UptimeRobot sur la sonde `/actuator/health/liveness`, alertes email
 
 ---
 
