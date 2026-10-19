@@ -1,9 +1,9 @@
 <div align="center">
 
 # 👋 Mathieu FENOUIL
-### Développeur Full-Stack Java/Spring Boot & React
+### Développeur Full-Stack Java/Spring Boot · Angular · React
 
-🚀 React · TypeScript · Spring Boot · Java · PostgreSQL · Node.js · Kafka · Docker · Kubernetes 
+🚀 Java 25 · Spring Boot · Angular · React · TypeScript · Oracle · PostgreSQL · Kafka · Docker · Kubernetes
 
 <p>
   <a href="https://www.linkedin.com/in/mathieu-fenouil-développeur-full-stack/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
@@ -16,20 +16,40 @@
 ---
 
 ## 🚀 Profil
- 
-Développeur full-stack avec une approche **orientée système** : je ne livre pas des features, je construis des architectures qui tiennent en production.
- 
+
+Développeur full-stack avec une approche **orientée système** : je ne livre pas des features, je construis des applications qui tiennent en production, testées, mesurées et déployées en continu.
+
 💡 Ce que j'apporte :
-- Frontend React / TypeScript structuré et maintenable
-- Backend Java Spring Boot & Node.js orienté domain
+- Backend Java 25 / Spring Boot orienté domaine, en contract-first (OpenAPI)
+- Frontend Angular et React / TypeScript, structuré et maintenable
+- Bases de données exploitées en profondeur : Oracle (PL/SQL, SQL analytique, plans d'exécution), PostgreSQL
 - Systèmes event-driven (Kafka, Outbox Pattern, microservices)
-- DevOps end-to-end : CI/CD, Docker, Kubernetes, Terraform, cloud Scaleway / AWS
+- Qualité et DevOps de bout en bout : TDD, tests de charge et E2E, analyse de code, CI/CD, Docker, Kubernetes, cloud
 
 👉 **Reconversion depuis l'audiovisuel : rigueur terrain, livraison sous contrainte, sens du produit.**
- 
+
 ---
 
 ## 🔥 Projets clés
+
+### 🏭 MécaDétect - Suivi de maintenance industrielle (Java · Angular · Oracle)
+🔗 **https://mecadetect.duckdns.org** (comptes de démonstration dans le README)  
+🔗 https://github.com/Matfen2/mecadetect
+
+Application de GMAO : déclaration des pannes, planification des interventions par technicien habilité, pilotage du parc d'équipements. Conçue en 6 sprints à partir d'un cahier des charges (modélisation Merise, critères d'acceptation), développée en TDD et déployée en continu.
+
+**Stack :** Java 25 · Spring Boot 4 · Angular 21 · Oracle 23 (PL/SQL) · OpenAPI · Docker · Caddy · GitHub Actions · Oracle Cloud
+
+✔️ Contract-first : interfaces Spring et client Angular générés depuis le contrat OpenAPI  
+✔️ Cycle de vie des interventions en `sealed interface` + pattern matching, verrouillage optimiste testé en concurrence réelle  
+✔️ Oracle avancé : trigger d'historique, génération de 500 000 interventions en PL/SQL, reporting analytique (`RANK`, `LAG`), archivage par lots  
+✔️ Performance mesurée : première page de recherche de 480 ms à 7 ms ; sous charge Gatling, p95 de 403 ms à 21 ms  
+✔️ 372 tests : JUnit 5 + Testcontainers (Oracle), Vitest, **Robot Framework** (parcours E2E dans Chromium)  
+✔️ SonarCloud : 0 alerte ouverte, notes A ; OWASP Dependency-Check et Trivy dans la CI  
+✔️ Pipeline : tests → SonarCloud → E2E sur Docker Compose → images arm64 → Trivy → déploiement SSH → 15 vérifications en production  
+✔️ Sauvegardes Data Pump chaque nuit vers Object Storage, **test de restauration automatique** chaque semaine
+
+---
 
 ### ⚖️ JuriBook - Plateforme de réservation juridique (microservices)
 🔗 **https://juribook.fr**
@@ -47,60 +67,38 @@ Plateforme de prise de rendez-vous avec des avocats, conçue en **architecture m
 ✔️ CI/CD GitHub Actions → GHCR → Scaleway Kapsule  
 ✔️ SSL Let's Encrypt via cert-manager · 43 tests Cypress E2E au vert
 
-💡 *Production-ready : https://juribook.fr*
-
----
-
-### ☕ FoodExpress - API REST (Spring Boot)
-🔗 https://matfen2.github.io/foodexpress/  
-🔗 https://github.com/Matfen2/foodexpress
-
-API de gestion de commandes construite avec une approche **production-ready**.
-
-**Stack :** Java · Spring Boot · PostgreSQL · Flyway · Docker · CI/CD · Render
-
-✔️ Architecture en couches (Controller / Service / Repository)  
-✔️ Validation DTO + gestion centralisée des erreurs  
-✔️ Migrations versionnées (Flyway V1→V4)  
-✔️ Tests unitaires (JUnit 5, Mockito, MockMvc)  
-✔️ Swagger auto-documenté  
-✔️ Pipeline CI/CD : GitHub Actions → GHCR → auto-deploy Render  
-✔️ Monitoring : UptimeRobot sur la sonde `/actuator/health/liveness`, alertes email
-
-⚠️ *Démo actuellement suspendue (quota d'heures d'instance du tier gratuit Render dépassé) - reprise automatique prévue début octobre. Code, tests et documentation consultables sur le dépôt GitHub en attendant.*
-
 ---
 
 ## 💼 Expérience
- 
+
 ### Développeur Full-Stack - DaftLink *(Bénévolat - Décembre 2024 - Décembre 2025)*
 *SaaS B2B · Engagement compatible avec une prise de poste en CDI*
- 
+
 - Développé des fonctionnalités front-end en Vue.js puis évolué vers du full-stack Node.js / MongoDB, pour un outil SaaS B2B en livraison continue
 - Conçu des endpoints REST Node.js intégrés à un pipeline CI/CD Docker
 - Proposé et implémenté des solutions techniques en collaboration avec l'équipe sur des problématiques produit spécifiques
 - Livré des features en production dans un contexte produit réel sous contrainte délai
 
 ---
- 
+
 ## 🧠 Stack technique
- 
+
 | Domaine | Technologies |
 |---|---|
-| **Frontend** | React · TypeScript · Tailwind CSS |
-| **Backend** | Java / Spring Boot · Node.js · Express · NestJS · API REST |
-| **Tests** | Jest · Supertest · JUnit · Mockito · Cypress (E2E) |
+| **Frontend** | Angular · React · TypeScript · Angular Material · Tailwind CSS |
+| **Backend** | Java 25 / Spring Boot · Spring Security (JWT) · Node.js · Express · NestJS · API REST · OpenAPI |
+| **Bases de données** | Oracle (PL/SQL, SQL analytique) · PostgreSQL · MongoDB · Flyway |
+| **Tests** | JUnit · Mockito · Testcontainers · Vitest · Jest · Robot Framework · Cypress · Gatling |
+| **Qualité et sécurité** | SonarCloud · OWASP Dependency-Check · Trivy |
 | **Messaging** | Apache Kafka KRaft |
-| **Bases de données** | PostgreSQL · MongoDB · Flyway |
-| **DevOps** | Docker · Kubernetes · Terraform · GitHub Actions · CI/CD |
-| **Cloud** | Scaleway (Kapsule, RDB) · Render |
-| **Outils** | Swagger · Zod · JWT · bcrypt · dotenv |
- 
+| **DevOps** | Docker · Docker Compose · Kubernetes · Terraform · GitHub Actions · Caddy · Nginx |
+| **Cloud** | Oracle Cloud (VM Ampere, Object Storage) · Scaleway (Kapsule, RDB) · Render |
+
 ---
- 
+
 ## 🎯 Recherche
 
-**CDI Développeur Full-Stack**  
+**CDI Développeur Full-Stack Java**  
 📍 Basé en région PACA (prioritaire) - mobilité PACA + remote
 
 Je recherche un environnement où :
