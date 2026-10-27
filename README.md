@@ -55,6 +55,20 @@ Application de GMAO sur un cas d'usage réaliste : déclaration des pannes, plan
 
 ---
 
+### 🔧 Migration Spring Boot - Java 11 / Spring Boot 2.7 → Java 17 / Spring Boot 3.5 (projet personnel)
+🔗 https://github.com/Matfen2/migration-spring-boot
+
+Migration pas à pas d'une API héritée de gestion de stock, **une étape par commit**, avec 24 tests restés verts à la fin de chaque étape. Le type de chantier qu'on rencontre en mission sur une application existante.
+
+**Stack :** Java 17 · Spring Boot 3.5 · Spring Security 6 · Hibernate 6 · springdoc-openapi · JUnit 5 · Mockito
+
+✔️ `javax` → `jakarta`, `WebSecurityConfigurerAdapter` → `SecurityFilterChain`, Springfox → springdoc  
+✔️ Code modernisé : records, switch expressions, pattern matching, text blocks  
+✔️ Deux régressions invisibles à la compilation détectées par les tests (URL en 404, propriété ignorée), corrigées sans casser les clients existants  
+✔️ Journal de migration : chaque problème, sa cause et la solution retenue
+
+---
+
 ### ⚖️ JuriBook - Plateforme de réservation juridique (projet personnel · microservices)
 🔗 **https://juribook.fr**
 
