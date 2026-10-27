@@ -45,10 +45,10 @@ Application de GMAO sur un cas d'usage réaliste : déclaration des pannes, plan
 ✔️ Contract-first : interfaces Spring et client Angular générés depuis le contrat OpenAPI  
 ✔️ Cycle de vie des interventions en `sealed interface` + pattern matching, verrouillage optimiste testé en concurrence réelle  
 ✔️ **Revue de code par un développeur Java senior** : 22 remarques traitées, dont le passage en **architecture hexagonale** vérifiée par un test d'architecture  
-✔️ **Import du parc par lots avec Spring Batch** : lecture CSV, validation ligne par ligne, une transaction par lot, rejets détaillés avec leur motif  
+✔️ **Import du parc par lots avec Spring Batch** : lecture CSV, validation ligne par ligne, une transaction par lot ; page Angular avec le rapport et chaque ligne rejetée avec son motif  
 ✔️ Oracle avancé : trigger d'historique, génération de 500 000 interventions en PL/SQL, reporting analytique (`RANK`, `LAG`), archivage par lots  
 ✔️ Performance mesurée : première page de recherche de 480 ms à 7 ms ; sous charge Gatling, p95 de 403 ms à 21 ms  
-✔️ 426 tests : JUnit 5 + Testcontainers (Oracle), Vitest, **Robot Framework** (parcours E2E dans Chromium)  
+✔️ 434 tests : JUnit 5 + Testcontainers (Oracle), Vitest, **Robot Framework** (parcours E2E dans Chromium)  
 ✔️ SonarCloud : 0 alerte ouverte, notes A ; Trivy analyse les dépendances et les images dans la CI  
 ✔️ Pipeline : tests → SonarCloud → E2E sur Docker Compose → images arm64 → Trivy → déploiement SSH → 15 vérifications en production  
 ✔️ Sauvegardes Data Pump chaque nuit vers Object Storage, **test de restauration automatique** chaque semaine
