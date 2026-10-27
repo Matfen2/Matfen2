@@ -1,9 +1,9 @@
 <div align="center">
 
 # 👋 Mathieu FENOUIL
-### Développeur Full-Stack Java/Spring Boot · Angular · React
+### Développeur Full-Stack Java/Spring Boot · Angular · Oracle
 
-🚀 Java 25 · Spring Boot · Angular · React · TypeScript · Oracle · PostgreSQL · Kafka · Docker · Kubernetes
+🚀 Java 25 · Spring Boot · Spring Batch · Angular · React · TypeScript · Oracle · PostgreSQL · Kafka · Docker · Kubernetes
 
 <p>
   <a href="https://www.linkedin.com/in/mathieu-fenouil-développeur-full-stack/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
@@ -20,7 +20,7 @@
 Développeur full-stack avec une approche **orientée système** : je ne livre pas des features, je construis des applications qui tiennent en production, testées, mesurées et déployées en continu.
 
 💡 Ce que j'apporte :
-- Backend Java 25 / Spring Boot orienté domaine, en contract-first (OpenAPI)
+- Backend Java 25 / Spring Boot orienté domaine, en contract-first (OpenAPI), architecture hexagonale, traitements par lots (Spring Batch)
 - Frontend Angular et React / TypeScript, structuré et maintenable
 - Bases de données exploitées en profondeur : Oracle (PL/SQL, SQL analytique, plans d'exécution), PostgreSQL
 - Systèmes event-driven (Kafka, Outbox Pattern, microservices)
@@ -38,16 +38,18 @@ Développeur full-stack avec une approche **orientée système** : je ne livre p
 🔗 **https://mecadetect.duckdns.org** (comptes de démonstration dans le README)  
 🔗 https://github.com/Matfen2/mecadetect
 
-Application de GMAO sur un cas d'usage réaliste : déclaration des pannes, planification des interventions par technicien habilité, pilotage du parc d'équipements. Conçue en 6 sprints à partir d'un cahier des charges (modélisation Merise, critères d'acceptation), développée en TDD et déployée en continu.
+Application de GMAO sur un cas d'usage réaliste : déclaration des pannes, planification des interventions par technicien habilité, pilotage du parc d'équipements. Conçue en 8 sprints à partir d'un cahier des charges (modélisation Merise, critères d'acceptation), développée en TDD et déployée en continu.
 
-**Stack :** Java 25 · Spring Boot 4 · Angular 21 · Oracle 23 (PL/SQL) · OpenAPI · Docker · Caddy · GitHub Actions · Oracle Cloud
+**Stack :** Java 25 · Spring Boot 4 · Spring Batch · MapStruct · Angular 21 · Oracle 23 (PL/SQL) · OpenAPI · Docker · Caddy · GitHub Actions · Oracle Cloud
 
 ✔️ Contract-first : interfaces Spring et client Angular générés depuis le contrat OpenAPI  
 ✔️ Cycle de vie des interventions en `sealed interface` + pattern matching, verrouillage optimiste testé en concurrence réelle  
+✔️ **Revue de code par un développeur Java senior** : 22 remarques traitées, dont le passage en **architecture hexagonale** vérifiée par un test d'architecture  
+✔️ **Import du parc par lots avec Spring Batch** : lecture CSV, validation ligne par ligne, une transaction par lot, rejets détaillés avec leur motif  
 ✔️ Oracle avancé : trigger d'historique, génération de 500 000 interventions en PL/SQL, reporting analytique (`RANK`, `LAG`), archivage par lots  
 ✔️ Performance mesurée : première page de recherche de 480 ms à 7 ms ; sous charge Gatling, p95 de 403 ms à 21 ms  
-✔️ 372 tests : JUnit 5 + Testcontainers (Oracle), Vitest, **Robot Framework** (parcours E2E dans Chromium)  
-✔️ SonarCloud : 0 alerte ouverte, notes A ; OWASP Dependency-Check et Trivy dans la CI  
+✔️ 426 tests : JUnit 5 + Testcontainers (Oracle), Vitest, **Robot Framework** (parcours E2E dans Chromium)  
+✔️ SonarCloud : 0 alerte ouverte, notes A ; Trivy analyse les dépendances et les images dans la CI  
 ✔️ Pipeline : tests → SonarCloud → E2E sur Docker Compose → images arm64 → Trivy → déploiement SSH → 15 vérifications en production  
 ✔️ Sauvegardes Data Pump chaque nuit vers Object Storage, **test de restauration automatique** chaque semaine
 
@@ -88,10 +90,10 @@ Plateforme de prise de rendez-vous avec des avocats (cas d'usage fictif, sans cl
 | Domaine | Technologies |
 |---|---|
 | **Frontend** | Angular · React · TypeScript · Angular Material · Tailwind CSS |
-| **Backend** | Java 25 / Spring Boot · Spring Security (JWT) · Node.js · Express · NestJS · API REST · OpenAPI |
+| **Backend** | Java 25 / Spring Boot · Spring Batch · Spring Security (JWT) · MapStruct · Node.js · Express · NestJS · API REST · OpenAPI |
 | **Bases de données** | Oracle (PL/SQL, SQL analytique) · PostgreSQL · MongoDB · Flyway |
 | **Tests** | JUnit · Mockito · Testcontainers · Vitest · Jest · Robot Framework · Cypress · Gatling |
-| **Qualité et sécurité** | SonarCloud · OWASP Dependency-Check · Trivy |
+| **Qualité et sécurité** | SonarCloud · Trivy · OWASP Dependency-Check · revue de code |
 | **Messaging** | Apache Kafka KRaft |
 | **DevOps** | Docker · Docker Compose · Kubernetes · Terraform · GitHub Actions · Caddy · Nginx |
 | **Cloud** | Oracle Cloud (VM Ampere, Object Storage) · Scaleway (Kapsule, RDB) · Render |
